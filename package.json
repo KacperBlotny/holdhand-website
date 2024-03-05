@@ -1,6 +1,6 @@
 {
-  "home": "https://KacperBlotny.github.com/holdhand-website",
-  "name": "holdhand-website",
+  "home": "https://kacperblotny.github.io/holdhand-website",
+  "name": "holdhand",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,7 +9,7 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "preview": "vite preview"
   },
   "dependencies": {
