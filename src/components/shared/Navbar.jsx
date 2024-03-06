@@ -19,7 +19,7 @@ function Navbar() {
                   to='/about-us'
                   className='dropbtn hover:text-normal cursor-pointer'
                 >
-                  O nas <i class='fa-solid fa-chevron-down text-normal'></i>
+                  O nas <i className='fa-solid fa-chevron-down text-normal'></i>
                 </Link>
                 <div className='dropdown-content'>
                   <Link to='/about-us'>Nasza misja</Link>
@@ -32,7 +32,7 @@ function Navbar() {
                   className='dropbtn hover:text-normal cursor-pointer'
                 >
                   Dla pracowników{' '}
-                  <i class='fa-solid fa-chevron-down text-normal'></i>
+                  <i className='fa-solid fa-chevron-down text-normal'></i>
                 </Link>
                 <div className='dropdown-content'>
                   <Link to='/about-us'>Item 1</Link>
@@ -45,7 +45,7 @@ function Navbar() {
                   className='dropbtn hover:text-normal cursor-pointer'
                 >
                   Dla pracodawców{' '}
-                  <i class='fa-solid fa-chevron-down text-normal'></i>
+                  <i className='fa-solid fa-chevron-down text-normal'></i>
                 </Link>
                 <div className='dropdown-content'>
                   <Link to='/about-us'>Item 1</Link>
@@ -58,7 +58,7 @@ function Navbar() {
                   className='dropbtn hover:text-normal cursor-pointer'
                 >
                   Dla agencji zatrudnienia{' '}
-                  <i class='fa-solid fa-chevron-down text-normal'></i>
+                  <i className='fa-solid fa-chevron-down text-normal'></i>
                 </Link>
                 <div className='dropdown-content'>
                   <Link to='/about-us'>Item 1</Link>
@@ -67,7 +67,7 @@ function Navbar() {
               </li>{' '}
               <li className='px-4 dropdown'>
                 <p className='dropbtn hover:text-normal cursor-pointer'>
-                  <i class='fa-solid fa-language'></i>
+                  <i className='fa-solid fa-language'></i>
                 </p>
                 <div className='dropdown-content'>
                   <Link to='/about-us'>Item 1</Link>
@@ -89,7 +89,7 @@ function Navbar() {
         </Link>
         <div className='hamburger-menu'>
           <input id='menu__toggle' type='checkbox' />
-          <label className='menu__btn' for='menu__toggle'>
+          <label className='menu__btn' htmlFor='menu__toggle'>
             <span></span>
           </label>
 

@@ -15,7 +15,7 @@ const Dropdown = ({ title, drops }) => {
       >
         {title}{" "}
         {title === "Język" ? (
-          <i class="fa-solid fa-globe text-normal"></i>
+          <i className="fa-solid fa-globe text-normal"></i>
         ) : (
           <i
             className={`m-auto px-2 fa-solid text-normal ${
