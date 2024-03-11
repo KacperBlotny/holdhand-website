@@ -3,7 +3,7 @@ import { useEffect } from 'react'
 import logo from '../assets/logo/Logo-04.png'
 
 import hands from '../assets/img/hands.jpg'
-import plane from '../assets/img/plane.jpg'
+import poland from '../assets/img/poland.jpg'
 import team from '../assets/img/team.jpg'
 import pass from '../assets/img/pass.jpg'
 
@@ -72,7 +72,7 @@ function About() {
         <div className='bold mb-8 border-b border-black p-2 text-4xl lg:text-6xl'>
           Nasza misja
         </div>
-        <div className='grid w-full grid-cols-1 flex-col gap-4 lg:grid-cols-2'>
+        <div className='grid w-full grid-cols-1 flex-col gap-8 lg:grid-cols-2'>
           <p>
             W kontekście bieżącej sytuacji na rynku pracy w Polsce, gdzie według
             danych{' '}
@@ -94,10 +94,18 @@ function About() {
             ekonomicznym.
           </p>
           <div>
-            <img src={team} alt='' className='h-[200px]' />
+            <img
+              src={team}
+              alt=''
+              className='h-[200px] mx-auto shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px] rounded'
+            />
           </div>
           <div>
-            <img src={plane} alt='' className='hidden h-[200px] lg:flex' />
+            <img
+              src={poland}
+              alt=''
+              className='hidden h-[200px] lg:flex mx-auto shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px] rounded'
+            />
           </div>
 
           <p>
@@ -120,7 +128,11 @@ function About() {
             z różnych części świata.
           </p>
           <div>
-            <img src={pass} alt='' className='h-[200px]' />
+            <img
+              src={pass}
+              alt=''
+              className='h-[200px] mx-auto shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px] rounded'
+            />
           </div>
         </div>
         <div id='coop'></div>

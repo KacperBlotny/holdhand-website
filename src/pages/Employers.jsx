@@ -3,6 +3,11 @@ import { useEffect } from 'react'
 import logo from '../assets/logo/Logo-04.png'
 import ContactUs from '../components/ContactUs'
 
+import worker1 from '../assets/img/worker1.jpg'
+import worker2 from '../assets/img/worker2.jpg'
+import worker3 from '../assets/img/worker3.jpg'
+import money from '../assets/img/money.jpg'
+
 import azerb from '../assets/flag/azerbaijan.png'
 import bang from '../assets/flag/bangladesh.png'
 import belarus from '../assets/flag/belarus.png'
@@ -37,7 +42,10 @@ function Employers() {
           realizowane z myślą o maksymalnej efektywności i elastyczności
           współpracy.
         </p>
-        <img src={logo} className='hidden w-[300px] lg:flex' />
+        <img
+          src={money}
+          className='hidden w-[300px] lg:flex shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px] rounded'
+        />
       </div>
       <div className='flex flex-col gap-8 pb-16 pt-8'>
         <div>
@@ -57,7 +65,10 @@ function Employers() {
               procesy rekrutacyjne, płacowe i administracyjne, co pozwala naszym
               klientom skupić się na podstawowej działalności.
             </p>
-            <img src={logo} className='mx-auto hidden w-[300px] lg:flex' />
+            <img
+              src={worker1}
+              className='mx-auto hidden w-[300px] lg:flex shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px] rounded'
+            />
           </div>
         </div>
         <div>
@@ -83,7 +94,10 @@ function Employers() {
               ograniczyć formalności i zaangażowanie czasowe w proces
               rekrutacyjny.
             </p>
-            <img src={logo} className='mx-auto hidden w-[300px] lg:flex' />
+            <img
+              src={worker2}
+              className='mx-auto hidden w-[300px] lg:flex shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px] rounded'
+            />
           </div>
         </div>
         <div>
@@ -103,7 +117,10 @@ function Employers() {
               obsługę tego procesu, od rekrutacji po zarządzanie kadrami,
               oferując tym samym wsparcie na każdym etapie współpracy.
             </p>
-            <img src={logo} className='mx-auto flex w-[300px] lg:flex' />
+            <img
+              src={worker3}
+              className='mx-auto hidden w-[300px] lg:flex shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px] rounded'
+            />
           </div>
         </div>
         <div>
@@ -122,12 +139,12 @@ function Employers() {
               główne kierunki w poszukiwaniu talentów
             </p>
             <div className='mx-auto '>
-              <p>Główne kierunki</p>
+              <p className='font-bold text-xl'>Główne kierunki</p>
 
               <div className='pb-8 flex gap-4'>
                 <div>
                   <img src={viet} className='w-[100px]' />
-                  <p>Wietnam</p>
+                  <p className='flex mx-auto'>Wietnam</p>
                 </div>
                 <div>
                   <img src={nepal} className='h-[50px]' />
@@ -151,7 +168,7 @@ function Employers() {
               dopasowanie idealnych pracowników do potrzeb naszych klientów.
             </p>
             <div className='mx-auto '>
-              <p>Pozostałe kierunki</p>
+              <p className='font-bold text-xl'>Pozostałe kierunki</p>
               <div className='pb-8 flex gap-4'>
                 <div>
                   <img src={bang} className='w-[100px]' />
