@@ -1,20 +1,25 @@
 import React from "react";
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import mainphoto from "../assets/holdhand-mainpage.jpg";
 import worker from "../assets/worker.jpg";
 import Button from "../components/shared/Button";
 import ScrollButton from "../components/shared/ScrollButton";
-import Footer from '../components/shared/Footer';
+import Footer from "../components/shared/Footer";
 
 function Index() {
+  useEffect(() => {
+    document.title = "Holdhand";
+  }, []);
+
   return (
     <div className="">
       <div className="mainPhoto"></div>
-      <div className="container flex flex-col mx-auto py-24">
-        <p className="text-5xl p-4">Coś tu wymyślić</p>
+      <div className="container mx-auto flex flex-col py-24">
+        <p className="p-4 text-5xl">Coś tu wymyślić</p>
 
-        <div className="flex justify-between mx-auto p-4">
-          <div className="w-1/2 flex flex-col my-auto">
+        <div className="mx-auto flex justify-between p-4">
+          <div className="my-auto flex w-1/2 flex-col">
             <p className="py-2">
               HoldHand, z siedzibą w Lublinie, to agencja zatrudnienia, która
               wykorzystuje nowoczesne technologie, aby oferować najwyższej
@@ -40,29 +45,29 @@ function Index() {
           <img src={worker} className="h-72 pr-16" />
         </div>
       </div>
-      <div className='w-full bg-light my-16'>
-        <div className="container flex flex-col mx-auto py-16">
-          <div className='flex mx-auto flex-col'>
-            <p className='flex mx-auto pb-8 text-2xl bold'>Dla pracodawców</p>
-            <ul className='flex justify-evenly'>
-              <li className='min-w-fit'>Leasing pracowniczy</li>
-              <li className='min-w-fit px-16'>Rekrutacja na zlecenie</li>
-              <li className='min-w-fit'>Praca tymczasowa</li>
+      <div className="my-16 w-full bg-light">
+        <div className="container mx-auto flex flex-col py-16">
+          <div className="mx-auto flex flex-col">
+            <p className="bold mx-auto flex pb-8 text-2xl">Dla pracodawców</p>
+            <ul className="flex justify-evenly">
+              <li className="min-w-fit">Leasing pracowniczy</li>
+              <li className="min-w-fit px-16">Rekrutacja na zlecenie</li>
+              <li className="min-w-fit">Praca tymczasowa</li>
             </ul>
           </div>
         </div>
-        <div className="container flex flex-col mx-auto py-16">
-          <div className='flex mx-auto flex-col'>
-            <p className='flex mx-auto pb-8 text-2xl bold'>Dla Agencji pracy</p>
-            <ul className='flex justify-evenly'>
-              <li className='min-w-fit'>Pozyskiwanie pracownikówy</li>
-              <li className='min-w-fit px-16'>Leasing pracowniczy</li>
-              <li className='min-w-fit'>Rekrutacja na zlecenie</li>
+        <div className="container mx-auto flex flex-col py-16">
+          <div className="mx-auto flex flex-col">
+            <p className="bold mx-auto flex pb-8 text-2xl">Dla Agencji pracy</p>
+            <ul className="flex justify-evenly">
+              <li className="min-w-fit">Pozyskiwanie pracownikówy</li>
+              <li className="min-w-fit px-16">Leasing pracowniczy</li>
+              <li className="min-w-fit">Rekrutacja na zlecenie</li>
             </ul>
           </div>
         </div>
       </div>
-      <Footer />
+
       <div className="extender"></div>
       <div id="test"></div>
     </div>

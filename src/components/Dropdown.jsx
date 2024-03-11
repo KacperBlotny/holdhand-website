@@ -1,6 +1,7 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
-const Dropdown = ({ title, drops }) => {
+const Dropdown = ({ title, drops, location }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleDropdown = () => {
@@ -18,21 +19,23 @@ const Dropdown = ({ title, drops }) => {
           <i className="fa-solid fa-globe text-normal"></i>
         ) : (
           <i
-            className={`m-auto px-2 fa-solid text-normal ${
+            className={`fa-solid m-auto px-2 text-normal ${
               isOpen ? "fa-chevron-left" : "fa-chevron-down"
             }`}
           ></i>
         )}
       </button>
       <div
-        className={`bg-white w-full overflow-hidden transition-height duration-300 ease-in-out ${
+        className={`transition-height w-full overflow-hidden bg-white duration-300 ease-in-out ${
           isOpen ? "h-auto" : "h-0"
         }`}
       >
         {/* Dropdown content here */}
         {drops.map((string, index) => (
-          <p key={index} className="py-2 px-4">
-            {string}
+          <p className="py-2">
+            <Link to={location} key={index} className="px-4 py-2">
+              {string}
+            </Link>
           </p>
         ))}
       </div>

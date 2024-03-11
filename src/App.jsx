@@ -1,15 +1,19 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import ScrollToTop from "./components/ScrollToTop";
+
 import Navbar from "./components/shared/Navbar";
+import Footer from "./components/shared/Footer";
+
 import Index from "./pages/Index";
 import About from "./pages/About";
 import Employees from "./pages/Employees";
 import Employers from "./pages/Employers";
 import Agency from "./pages/Agency";
-import Contact from "./pages/Contact";
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Navbar />
       {/* <div className="container flex mx-auto"> */}
       <div>
@@ -20,9 +24,9 @@ function App() {
           <Route path="/for-employees" element={<Employees />} />
           <Route path="/for-employers" element={<Employers />} />
           <Route path="/for-agency" element={<Agency />} />
-          <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
+      <Footer />
     </Router>
   );
 }

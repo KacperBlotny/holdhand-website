@@ -24,7 +24,7 @@ html {
   height: 100vh;
 }
 .mainPhoto {
-  background-image: url('./assets/holdhand-mainpage.jpg');
+  background-image: url("./assets/holdhand-mainpage.jpg");
   height: 100vh;
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
@@ -33,6 +33,9 @@ html {
   /* width: 100vw; */
 }
 
+h2 {
+  font-size: 1.5rem;
+}
 @media (min-width: 1024px) {
   .mainPhoto {
     height: 70vh;
@@ -142,11 +145,11 @@ button:focus-visible {
   transition-duration: 0.25s;
 }
 .menu__btn > span::before {
-  content: '';
+  content: "";
   top: -8px;
 }
 .menu__btn > span::after {
-  content: '';
+  content: "";
   top: 8px;
 }
 .menu__box {
@@ -167,7 +170,7 @@ button:focus-visible {
   display: block;
   padding: 12px 24px;
   color: #333;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: 600;
   text-decoration: none;
