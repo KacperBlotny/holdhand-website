@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from '../../assets/logo/Logo-01.png'
 import ContactUs from '../ContactUs'
+import { Link } from 'react-router-dom'
 
 function Footer() {
   return (
@@ -39,13 +40,13 @@ function Footer() {
                 <p className='w-[75px]'>REGON: </p>527332599
               </li>
               <li>Okopowa 8, 20-022 Lublin</li>
-              <li className='group flex cursor-pointer text-xl mt-auto'>
+              {/* <li className='group flex cursor-pointer text-xl mt-auto'>
                 <i className='fa-brands fa-linkedin flex cursor-pointer items-center pr-2 hover:text-normalHover group-hover:text-normalHover'></i>
                 <p className=''>Linkedin</p>
-              </li>
-              <li className='group flex cursor-pointer text-xl'>
+              </li> */}
+              <li className='group flex cursor-pointer text-xl mt-auto'>
                 <i className='fa-regular fa-envelope flex cursor-pointer items-center pr-2 hover:text-normalHover group-hover:text-normalHover'></i>
-                <p className=''>office@holdhand.eu</p>
+                <p className='text-normal'>office@holdhand.eu</p>
               </li>
             </ul>
           </div>
@@ -63,9 +64,15 @@ function Footer() {
             </ul>
           </div>
         </div>
-        <div className='mx-auto flex pt-16'>
-          &copy; Copyright {new Date().getFullYear()}, Holdhand, All rights
-          reserved
+        <div className='mx-auto flex gap-8 pt-16'>
+          <p>
+            &copy; Copyright {new Date().getFullYear()}, Holdhand, All rights
+            reserved
+          </p>
+          <p className='cursor-pointer text-normal hover:text-normalActive'>
+            <Link to='/privacy-policy'>Polityka prywatności</Link>
+            <i className='fa-solid fa-link pl-1'></i>
+          </p>
         </div>
       </div>
     </>

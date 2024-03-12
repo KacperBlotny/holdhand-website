@@ -33,7 +33,7 @@ function Index() {
       <div className='mainPhoto absolute h-full w-full'></div>
       <div className='mainexpander'></div>
       <div className='container mx-auto flex flex-col py-24'>
-        <p className='p-4 text-5xl'>Coś tu wymyślić</p>
+        <p className='p-4 text-5xl'>Witaj w Holdhand</p>
 
         <div className='mx-auto flex justify-between p-4 lg:flex-row flex-col'>
           <div className='my-auto flex lg:w-1/2 flex-col'>

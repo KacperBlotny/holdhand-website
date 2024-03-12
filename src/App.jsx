@@ -9,6 +9,7 @@ import About from './pages/About'
 import Employees from './pages/Employees'
 import Employers from './pages/Employers'
 import Agency from './pages/Agency'
+import Policy from './pages/Policy'
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path='/for-employees' element={<Employees />} />
           <Route path='/for-employers' element={<Employers />} />
           <Route path='/for-agency' element={<Agency />} />
+          <Route path='/privacy-policy' element={<Policy />} />
         </Routes>
       </div>
       <Footer />

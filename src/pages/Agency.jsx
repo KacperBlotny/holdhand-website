@@ -1,8 +1,11 @@
 import React from 'react'
-
+import { useEffect } from 'react'
 import teamhands from '../assets/img/teamhands.jpg'
 
 function Agency() {
+  useEffect(() => {
+    document.title = 'Holdhand | Dla agencji zatrudnienia'
+  }, [])
   return (
     <div className='container mx-auto flex flex-col px-8 pb-24 pt-24 lg:pt-24'>
       <div
@@ -49,7 +52,10 @@ function Agency() {
           </ul>
         </div>
         <div className='hidden lg:flex mx-auto'>
-          <img src={teamhands} className='w-[300px] mx-auto' />
+          <img
+            src={teamhands}
+            className='w-[300px] mx-auto lg:flex shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px] rounded'
+          />
         </div>
       </div>
     </div>
