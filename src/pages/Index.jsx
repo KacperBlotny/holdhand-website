@@ -115,7 +115,7 @@ function Index() {
                   to='/for-agency'
                   className='hover:bg-normalActive text-xl bg-normal text-white py-2 px-3 mt-4 rounded-xl transition ease-in-out duration-300 mx-auto'
                 >
-                  Pozyskiwanie pracownikówy
+                  Pozyskiwanie pracowników
                 </Link>
               </li>
               <li className='min-w-fit flex flex-col'>

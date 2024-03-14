@@ -28,36 +28,39 @@ function About() {
     <div className='container mx-auto flex flex-col px-8 pt-16'>
       <div className='flex flex-row justify-between pt-8 lg:pt-24'>
         <div className='bold w-full text-6xl lg:w-1/2'>
-          <span className='flex'>Witaj w HoldHand</span>
-          <span className='text-4xl'>
+          <p className='flex'>Witaj w HoldHand</p>
+          <p className='text-4xl'>
             Twoim przewodniku po świecie międzynarodowych możliwości
             zatrudnienia.
-          </span>
+          </p>
         </div>
         <img src={logo} alt='' className='m-auto  hidden h-[180px] lg:flex' />
       </div>
       <div className='flex'>
         <div className=' flex flex-col pt-8 lg:w-1/2'>
           <span className='pb-4'>
-            Zlokalizowana w śródmieściu Lublina, agencja zatrudnienia, została
-            założona przez dwoje przyjaciół, Bogusława Władykę i Damiana
-            Siembidę, HoldHand, jest wyrazem pasji do odkrywania nowych
-            horyzontów. Naszym celem jest łączenie ludzi i kultur, z
-            wykorzystaniem technologii jako kluczowego narzędzia w tym procesie.
+            Zlokalizowana w śródmieściu Lublina agencja zatrudnienia, została
+            założona przez dwoje przyjaciół - Bogusława Władykę i Damiana
+            Siembidę. HoldHand jest wyrazem pasji do odkrywania nowych
+            horyzontów.
           </span>
           <span className='pb-4'>
-            W Naszej firmie stawiamy na współpracę ponad konkurencją, wierząc,
+            Naszym celem jest łączenie ludzi i kultur z wykorzystaniem
+            technologii, jako kluczowego narzędzia w tym procesie.
+          </span>
+          <span className='pb-4'>
+            W naszej firmie stawiamy na współpracę zamiast konkurowania wierząc,
             że rynek oferuje wystarczająco dużo możliwości dla wszystkich.
             Dzielenie się wiedzą i zasobami nie tylko prowadzi do wzajemnych
-            korzyści, ale także buduje silne, oparte na zaufaniu relacje
+            korzyści, ale także buduje silne, oparte na zaufaniu, relacje
             międzyludzkie, które są dla nas fundamentem.
           </span>
           <span>
             Promujemy kulturę otwartości, zachęcając każdego do dzielenia się
             swoimi pomysłami. Nasze dążenie do zrozumienia i adaptacji innowacji
-            pozwala nam nie tylko tworzyć nowe możliwości zatrudnienia, ale
-            także wzmacniać więzi międzyludzkie i budować solidne fundamenty dla
-            przyszłych sukcesów.
+            w rozwiązaniach branżowych pozwala nam nie tylko tworzyć nowe
+            możliwości zatrudnienia, ale także wzmacniać więzi międzyludzkie i
+            budować solidne fundamenty dla przyszłych sukcesów.
           </span>
         </div>
         <div className='m-auto hidden lg:flex w-1/2 pt-8'>
