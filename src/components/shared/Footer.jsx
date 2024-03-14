@@ -45,6 +45,14 @@ function Footer() {
                 <p className=''>Linkedin</p>
               </li> */}
               <li className='group flex cursor-pointer text-xl mt-auto'>
+                <i className='fa-brands fa-discord flex cursor-pointer items-center pr-2 hover:text-normalHover group-hover:text-normalHover'></i>
+                <p className='text-normal'>
+                  <a href='https://discord.gg/YdT5ePFr' target='_blank'>
+                    Discord
+                  </a>
+                </p>
+              </li>
+              <li className='group flex cursor-pointer text-xl'>
                 <i className='fa-regular fa-envelope flex cursor-pointer items-center pr-2 hover:text-normalHover group-hover:text-normalHover'></i>
                 <p className='text-normal'>office@holdhand.eu</p>
               </li>
