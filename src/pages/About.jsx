@@ -17,7 +17,7 @@ import phil from '../assets/flag/philipines.png'
 import sri from '../assets/flag/srilanka.webp'
 import ukr from '../assets/flag/ukraine.jpg'
 import viet from '../assets/flag/vietnam.png'
-import turkey from '../assets/flag/turkey.webp'
+import turkey from '../assets/flag/turkey.jpg'
 
 function About() {
   useEffect(() => {
@@ -156,65 +156,90 @@ function About() {
           umiejętnościami pracowników.
         </p>
         <ul className='grid grid-cols-2 justify-between gap-4 md:grid-cols-5'>
-          <li>
+          <li className='flagList'>
+            {/* <img
+              src={azerb}
+              className='mx-auto w-[150px] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] hover:scale-105 transition-all ease-in-out duration-300 flagImage'
+            /> */}
             <img
               src={azerb}
-              className='mx-auto w-[150px] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] hover:scale-105 transition-all ease-in-out duration-300'
+              className='mx-auto w-[150px] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] flagImage'
             />
+            {/* <div className='overlay'> */}
+            <div className='overlayText'>Azerbejdżan</div>
+            {/* </div> */}
           </li>
-          <li>
+          <li className='flagList'>
             <img
               src={belarus}
-              className='mx-auto w-[150px]  shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] hover:scale-105 transition-all ease-in-out duration-300'
+              className='mx-auto w-[150px] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] flagImage'
             />
+
+            <div className='overlayText'>Białoruś</div>
           </li>
-          <li>
+          <li className='flagList'>
             <img
               src={georg}
-              className='mx-auto w-[150px]  shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] hover:scale-105 transition-all ease-in-out duration-300'
+              className='mx-auto w-[150px] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] flagImage'
             />
+
+            <div className='overlayText'>Gruzja</div>
           </li>
-          <li>
+          <li className='flagList'>
             <img
               src={india}
-              className='mx-auto w-[150px]  shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] hover:scale-105 transition-all ease-in-out duration-300'
+              className='mx-auto w-[150px] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] flagImage'
             />
+
+            <div className='overlayText'>Indie</div>
           </li>
-          <li className='mx-auto w-[150px]'>
+          <li className='mx-auto w-[150px] flagList'>
             <img
               src={nepal}
               className='h-[75px] hover:scale-105 transition-all ease-in-out duration-300'
             />
+
+            <div className='overlayText'>Nepal</div>
           </li>
-          <li>
+          <li className='flagList'>
             <img
               src={phil}
-              className='mx-auto w-[150px]  shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] hover:scale-105 transition-all ease-in-out duration-300'
+              className='mx-auto w-[150px] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] flagImage'
             />
+
+            <div className='overlayText'>Filipiny</div>
           </li>
-          <li>
+          <li className='flagList'>
             <img
               src={sri}
-              className='mx-auto w-[150px]  shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] hover:scale-105 transition-all ease-in-out duration-300'
+              className='mx-auto w-[150px] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] flagImage'
             />
+
+            <div className='overlayText'>Sri Lanka</div>
           </li>
-          <li className='mx-auto w-[150px]'>
+          <li className='flagList'>
             <img
               src={turkey}
-              className='mx-auto h-[75px]  shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] hover:scale-105 transition-all ease-in-out duration-300'
+              className='mx-auto w-[150px] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] flagImage'
             />
+
+            <div className='overlayText'>Turcja</div>
           </li>
-          <li>
+          <li className='flagList'>
             <img
               src={bang}
-              className='mx-auto w-[150px]  shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] hover:scale-105 transition-all ease-in-out duration-300'
+              className='mx-auto w-[150px] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] flagImage'
             />
+
+            <div className='overlayText'>Bangladesz</div>
           </li>
-          <li>
+          <li className='flagList'>
             <img
               src={viet}
-              className='mx-auto w-[150px]  shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] hover:scale-105 transition-all ease-in-out duration-300'
+              className='mx-auto w-[150px] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] flagImage'
             />
+
+            <div className='overlayText'>Wietnam</div>
           </li>
         </ul>
 
