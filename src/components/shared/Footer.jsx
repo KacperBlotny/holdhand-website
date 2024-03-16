@@ -7,7 +7,7 @@ function Footer() {
   return (
     <>
       <div className='h-px w-screen bg-gray-400'></div>
-      <div className='flex flex-col p-8' id='contact'>
+      <footer className='flex flex-col p-8' id='contact'>
         <div className='container mx-auto grid grid-cols-1 justify-evenly gap-16 pt-8 2xl:grid-cols-3'>
           <div className='flex flex-col'>
             <div className=' border-b-2'>
@@ -82,7 +82,7 @@ function Footer() {
             <i className='fa-solid fa-link pl-1'></i>
           </p>
         </div>
-      </div>
+      </footer>
     </>
   )
 }

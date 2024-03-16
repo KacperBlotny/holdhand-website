@@ -8,12 +8,9 @@ function Agency() {
   }, [])
   return (
     <div className='container mx-auto flex flex-col px-8 pb-24 pt-24 lg:pt-24'>
-      <div
-        className='bold mb-8 border-b border-black p-2 text-5xl'
-        id='mission'
-      >
+      <h1 className='bold mb-8 border-b border-black p-2 text-5xl' id='mission'>
         Oferta dla agencji zatrudnienia
-      </div>
+      </h1>
       <div className='flex'>
         <div className='lg:w-2/3'>
           <p className='text-xl'>
@@ -54,6 +51,7 @@ function Agency() {
         <div className='hidden lg:flex mx-auto'>
           <img
             src={teamhands}
+            alt='team hands'
             className='w-[300px] mx-auto lg:flex shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px] rounded'
           />
         </div>

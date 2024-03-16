@@ -33,7 +33,7 @@ function Index() {
       <div className='mainPhoto absolute h-full w-full'></div>
       <div className='mainexpander'></div>
       <div className='container mx-auto flex flex-col py-24'>
-        <p className='p-4 text-5xl'>Witaj w Holdhand</p>
+        <h1 className='p-4 text-5xl'>Witaj w Holdhand</h1>
 
         <div className='mx-auto flex justify-between p-4 lg:flex-row flex-col'>
           <div className='my-auto flex lg:w-1/2 flex-col'>
@@ -60,6 +60,7 @@ function Index() {
           </div>
           <img
             src={plane}
+            alt='holdhand plane'
             className='xl:w-[600px] lg:mb-auto lg:w-[400px] w-full xl:mr-8 shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px] rounded'
           />
         </div>
@@ -67,9 +68,9 @@ function Index() {
       <div className='my-16 w-full bg-light'>
         <div className='container mx-auto flex flex-col py-16'>
           <div className='mx-auto flex flex-col'>
-            <p className='bold mx-auto flex pb-8 text-4xl font-bold'>
+            <h3 className='bold mx-auto flex pb-8 text-4xl font-bold'>
               Dla pracodawców
-            </p>
+            </h3>
             <ul className='flex justify-evenly lg:gap-16 gap-8 lg:flex-row flex-col'>
               <li className='min-w-fit flex flex-col'>
                 <i class='fa-regular fa-user mx-auto text-3xl'></i>
@@ -105,9 +106,9 @@ function Index() {
         </div>
         <div className='container mx-auto flex flex-col py-16'>
           <div className='mx-auto flex flex-col'>
-            <p className='bold mx-auto flex pb-8 text-4xl font-bold'>
+            <h3 className='bold mx-auto flex pb-8 text-4xl font-bold'>
               Dla Agencji pracy
-            </p>
+            </h3>
             <ul className='flex justify-evenly lg:gap-16 gap-8 lg:flex-row flex-col'>
               <li className='min-w-fit flex flex-col'>
                 <i class='fa-solid fa-magnifying-glass mx-auto text-3xl'></i>

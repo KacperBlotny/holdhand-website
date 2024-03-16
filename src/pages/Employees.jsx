@@ -22,16 +22,20 @@ function Employees() {
           dostępu do szerokiej gamy ofert pracy, które odpowiadają Twoim
           umiejętnościom i oczekiwaniom zawodowym.
         </p>
-        <img src={logo} className='w-[200px] hidden lg:flex' />
+        <img
+          src={logo}
+          alt='holdhand logo'
+          className='w-[200px] hidden lg:flex'
+        />
         <div id='findjob'></div>
       </div>
       <div className='pb-32'>
-        <div
+        <h1
           className='bold mb-8 border-b border-black p-2 text-4xl lg:text-5xl'
           id='mission'
         >
           Znajdź Pracę
-        </div>
+        </h1>
         <ul className='flex flex-col gap-4'>
           <li className='flex flex-col gap-4'>
             <h2 className='font-bold'>Jak to działa?</h2>
@@ -114,12 +118,12 @@ function Employees() {
         <div id='jointeam'></div>
       </div>
       <div className='pb-32'>
-        <div
+        <h2
           className='bold mb-8 border-b border-black p-2 text-4xl lg:text-5xl'
           id='mission'
         >
           Dołącz do naszego zespołu
-        </div>
+        </h2>
         <div className='flex flex-col gap-2 lg:flex-row justify-between'>
           <div className='w-1/2'>
             <p className=''>

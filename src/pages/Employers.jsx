@@ -30,9 +30,9 @@ function Employers() {
       className='container mx-auto flex flex-col px-8 pb-24 pt-24 lg:pt-24'
       id='offer'
     >
-      <div className='bold mb-8 border-b border-black p-2 text-5xl'>
+      <h1 className='bold mb-8 border-b border-black p-2 text-5xl'>
         Nasza oferta
-      </div>
+      </h1>
       <div className='flex flex-col text-2xl lg:flex-row'>
         <p className='w-full'>
           W HoldHand specjalizujemy się w dostarczaniu kompleksowych rozwiązań w
@@ -43,18 +43,19 @@ function Employers() {
           współpracy.
         </p>
         <img
+          alt='money'
           src={money}
           className='hidden w-[300px] lg:flex shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px] rounded'
         />
       </div>
       <div className='flex flex-col gap-8 pb-16 pt-8'>
         <div>
-          <div
+          <h2
             className='mb-8 border-b border-black p-2 text-3xl font-bold'
             id='mission'
           >
             Leasing Pracowniczy
-          </div>
+          </h2>
           <div className='flex '>
             <p className='lg:w-1/2'>
               Leasing pracowniczy to rozwiązanie, które umożliwia firmom
@@ -66,18 +67,19 @@ function Employers() {
               klientom skupić się na podstawowej działalności.
             </p>
             <img
+              alt='worker orange'
               src={worker1}
               className='mx-auto hidden w-[300px] lg:flex shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px] rounded'
             />
           </div>
         </div>
         <div>
-          <div
+          <h2
             className='bold mb-8 border-b border-black p-2 text-3xl font-bold'
             id='mission'
           >
             Rekrutacja na zlecenie
-          </div>
+          </h2>
           <div className='flex '>
             <p className='lg:w-1/2'>
               Nasza usługa rekrutacji na zlecenie w HoldHand jest dedykowana
@@ -96,17 +98,18 @@ function Employers() {
             </p>
             <img
               src={worker2}
+              alt='worker hammer'
               className='mx-auto hidden w-[300px] lg:flex shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px] rounded'
             />
           </div>
         </div>
         <div>
-          <div
+          <h2
             className='bold mb-8 border-b border-black p-2 text-3xl font-bold'
             id='mission'
           >
             Praca Tymczasowa
-          </div>
+          </h2>
           <div className='flex '>
             <p className='lg:w-1/2'>
               Praca tymczasowa to usługa skierowana do firm, które potrzebują
@@ -119,17 +122,18 @@ function Employers() {
             </p>
             <img
               src={worker3}
+              alt='worker machine'
               className='mx-auto hidden w-[300px] lg:flex shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px] rounded'
             />
           </div>
         </div>
         <div>
-          <div
+          <h3
             className='bold mb-8 border-b border-black p-2 text-3xl font-bold'
             id='mission'
           >
             Z kim współpracujemy
-          </div>
+          </h3>
           <div className='grid xl:grid-cols-2 grid-cols-1'>
             <p className='pb-8'>
               Nasza sieć rekrutacyjna w HoldHand rozciąga się na strategicznie
@@ -143,19 +147,19 @@ function Employers() {
 
               <div className='pb-8 flex gap-4'>
                 <div>
-                  <img src={viet} className='w-[100px]' />
+                  <img src={viet} className='w-[100px]' alt='holdhand flag' />
                   <p className='flex mx-auto'>Wietnam</p>
                 </div>
                 <div>
-                  <img src={nepal} className='h-[50px]' />
+                  <img src={nepal} className='h-[50px]' alt='holdhand flag' />
                   <p>Nepal</p>
                 </div>
                 <div>
-                  <img src={azerb} className='h-[50px]' />
+                  <img src={azerb} className='h-[50px]' alt='holdhand flag' />
                   <p>Azerbejdżan</p>
                 </div>
                 <div>
-                  <img src={georg} className='h-[50px]' />
+                  <img src={georg} className='h-[50px]' alt='holdhand flag' />
                   <p>Gruzja</p>
                 </div>{' '}
               </div>
@@ -171,23 +175,27 @@ function Employers() {
               <p className='font-bold text-xl'>Pozostałe kierunki</p>
               <div className='pb-8 flex gap-4'>
                 <div>
-                  <img src={bang} className='w-[100px]' />
+                  <img src={bang} className='w-[100px]' alt='holdhand flag' />
                   <p>Bangladesz</p>
                 </div>
                 <div>
-                  <img src={belarus} className='w-[100px]' />
+                  <img
+                    src={belarus}
+                    className='w-[100px]'
+                    alt='holdhand flag'
+                  />
                   <p>Białoruś</p>
                 </div>
                 <div>
-                  <img src={india} className='w-[100px]' />
+                  <img src={india} className='w-[100px]' alt='holdhand flag' />
                   <p>Indie</p>
                 </div>
                 <div>
-                  <img src={phil} className='w-[100px]' />
+                  <img src={phil} className='w-[100px]' alt='holdhand flag' />
                   <p>Filipiny</p>
                 </div>
                 <div>
-                  <img src={sri} className='w-[100px]' />
+                  <img src={sri} className='w-[100px]' alt='holdhand flag' />
                   <p>Sri Lanka</p>
                 </div>
                 <div>
@@ -202,9 +210,9 @@ function Employers() {
       </div>
 
       <div className='flex flex-col gap-8'>
-        <div className='bold mb-8 border-b border-black p-2 text-5xl'>
+        <h1 className='bold mb-8 border-b border-black p-2 text-5xl'>
           Współpraca
-        </div>
+        </h1>
         <div className='flex flex-col text-2xl lg:flex-row'>
           <p className='w-full'>
             W HoldHand zdajemy sobie sprawę, jak ważne jest znalezienie

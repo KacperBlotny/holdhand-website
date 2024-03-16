@@ -11,7 +11,7 @@ function Navbar() {
   const location = useLocation().pathname
   return (
     <>
-      <div className='fixed hidden w-screen bg-white p-4 shadow-md xl:flex z-10'>
+      <header className='fixed hidden w-screen bg-white p-4 shadow-md xl:flex z-10'>
         <div className='container mx-auto flex justify-between z-10'>
           <Link to='/'>
             <img
@@ -170,10 +170,10 @@ function Navbar() {
             </ul>
           </div>
         </div>
-      </div>
+      </header>
 
       {/* Mobile navbar */}
-      <div className='fixed w-screen bg-white p-4 shadow-md xl:hidden z-10'>
+      <header className='fixed w-screen bg-white p-4 shadow-md xl:hidden z-10'>
         <Link to='/' className='flex h-8 w-[300px] lg:w-auto'>
           <img src={logo} alt='Logo' className='h-8 max-w-[300px] lg:w-auto' />
         </Link>
@@ -228,7 +228,7 @@ function Navbar() {
             </li>
           </ul>
         </div>
-      </div>
+      </header>
     </>
   )
 }

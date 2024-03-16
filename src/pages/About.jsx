@@ -34,7 +34,11 @@ function About() {
             zatrudnienia.
           </p>
         </div>
-        <img src={logo} alt='' className='m-auto  hidden h-[180px] lg:flex' />
+        <img
+          src={logo}
+          alt='holdhand logo'
+          className='m-auto  hidden h-[180px] lg:flex'
+        />
       </div>
       <div className='flex'>
         <div className=' flex flex-col pt-8 lg:w-1/2'>
@@ -66,15 +70,16 @@ function About() {
         <div className='m-auto hidden lg:flex w-1/2 pt-8'>
           <img
             src={hands}
+            alt='holding hands'
             className='w-[500px] mx-auto shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px] rounded'
           />
         </div>
       </div>
       <div id='mission'></div>
       <div className='pb-32 pt-32'>
-        <div className='bold mb-8 border-b border-black p-2 text-4xl lg:text-6xl'>
+        <h2 className='bold mb-8 border-b border-black p-2 text-4xl lg:text-6xl'>
           Nasza misja
-        </div>
+        </h2>
         <div className='grid w-full grid-cols-1 flex-col gap-8 lg:grid-cols-2'>
           <p>
             W kontekście bieżącej sytuacji na rynku pracy w Polsce, gdzie według
@@ -99,14 +104,14 @@ function About() {
           <div>
             <img
               src={team}
-              alt=''
+              alt='working team'
               className='h-[200px] mx-auto shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px] rounded'
             />
           </div>
           <div>
             <img
               src={poland}
-              alt=''
+              alt='flag of poland'
               className='hidden h-[200px] lg:flex mx-auto shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px] rounded'
             />
           </div>
@@ -133,7 +138,7 @@ function About() {
           <div>
             <img
               src={pass}
-              alt=''
+              alt='passport'
               className='h-[200px] mx-auto shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px] rounded'
             />
           </div>
@@ -141,9 +146,9 @@ function About() {
         <div id='coop'></div>
       </div>
       <div className='pb-32'>
-        <div className='bold mb-8 border-b border-black p-2 text-4xl lg:text-6xl'>
+        <h2 className='bold mb-8 border-b border-black p-2 text-4xl lg:text-6xl'>
           Z kim współpracujemy?
-        </div>
+        </h2>
         <p className='py-2 pb-8'>
           W HoldHand, nasza globalna sieć współpracy jest kluczem do sukcesu.
           Dzięki bliskim relacjom z rekruterami z różnych stron świata, jesteśmy
@@ -163,6 +168,7 @@ function About() {
             /> */}
             <img
               src={azerb}
+              alt='flag of azerbeijan'
               className='mx-auto w-[150px] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] flagImage'
             />
             {/* <div className='overlay'> */}
@@ -171,6 +177,7 @@ function About() {
           </li>
           <li className='flagList'>
             <img
+              alt='flag of belarus'
               src={belarus}
               className='mx-auto w-[150px] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] flagImage'
             />
@@ -179,6 +186,7 @@ function About() {
           </li>
           <li className='flagList'>
             <img
+              alt='flag of georgia'
               src={georg}
               className='mx-auto w-[150px] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] flagImage'
             />
@@ -187,6 +195,7 @@ function About() {
           </li>
           <li className='flagList'>
             <img
+              alt='flag of india'
               src={india}
               className='mx-auto w-[150px] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] flagImage'
             />
@@ -195,6 +204,7 @@ function About() {
           </li>
           <li className='mx-auto w-[150px] flagList'>
             <img
+              alt='flag of nepal'
               src={nepal}
               className='h-[75px] hover:scale-105 transition-all ease-in-out duration-300'
             />
@@ -203,6 +213,7 @@ function About() {
           </li>
           <li className='flagList'>
             <img
+              alt='flag of philipines'
               src={phil}
               className='mx-auto w-[150px] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] flagImage'
             />
@@ -211,6 +222,7 @@ function About() {
           </li>
           <li className='flagList'>
             <img
+              alt='flag of sri lanka'
               src={sri}
               className='mx-auto w-[150px] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] flagImage'
             />
@@ -219,6 +231,7 @@ function About() {
           </li>
           <li className='flagList'>
             <img
+              alt='flag of turkey'
               src={turkey}
               className='mx-auto w-[150px] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] flagImage'
             />
@@ -227,6 +240,7 @@ function About() {
           </li>
           <li className='flagList'>
             <img
+              alt='flag of bangladesh'
               src={bang}
               className='mx-auto w-[150px] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] flagImage'
             />
@@ -235,6 +249,7 @@ function About() {
           </li>
           <li className='flagList'>
             <img
+              alt='flag of vietnam'
               src={viet}
               className='mx-auto w-[150px] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] flagImage'
             />
