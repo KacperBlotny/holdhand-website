@@ -52,7 +52,7 @@ function Employees() {
             <ul className='list-disc'>
               <li>
                 <span className='font-bold'>
-                  Zdefiniuj Swoje Idealne Miejsce Pracy:
+                  Zdefiniuj Swoje Idealne Miejsce Pracy:{' '}
                 </span>
                 Zastanów się nad preferowanym zawodem oraz specyfiką stanowiska,
                 na którym chciałbyś pracować.
@@ -149,12 +149,12 @@ function Employees() {
             <h2 className='font-bold'>Jak to działa?</h2>
             <ul className='list-disc'>
               <li>
-                <span className='font-bold'>Wypełnij Formularz:</span>
+                <span className='font-bold'>Wypełnij Formularz: </span>
                 Podaj interesujące Cię stanowisko i podaj swoje dane kontaktowe
                 oraz CV.
               </li>
               <li>
-                <span className='font-bold'>Poczekaj na Kontakt:</span>
+                <span className='font-bold'>Poczekaj na Kontakt: </span>
                 Gdy tylko rozpoczniemy poszukiwania nowych członków zespołu
                 pasujących do Twojego profilu, skontaktujemy się z Tobą, aby
                 omówić możliwości współpracy.
@@ -163,16 +163,16 @@ function Employees() {
             <h2 className='font-bold'>Dlaczego warto do nas dołączyć?</h2>
             <ul className='list-disc'>
               <li>
-                <span className='font-bold'>Rozwój i Szkolenia:</span>W HoldHand
-                stawiamy na ciągły rozwój kompetencji naszego zespołu
+                <span className='font-bold'>Rozwój i Szkolenia: </span>W
+                HoldHand stawiamy na ciągły rozwój kompetencji naszego zespołu
               </li>
               <li>
-                <span className='font-bold'>Przyjazna Atmosfera:</span>
+                <span className='font-bold'>Przyjazna Atmosfera: </span>
                 Dbamy o pozytywną atmosferę pracy i wspieramy się nawzajem w
                 realizacji zawodowych celów.
               </li>
               <li>
-                <span className='font-bold'>Różnorodne Projekty:</span>
+                <span className='font-bold'>Różnorodne Projekty: </span>
                 Praca w naszej firmie to możliwość uczestniczenia w
                 interesujących projektach i zdobywania cennego doświadczenia.
               </li>

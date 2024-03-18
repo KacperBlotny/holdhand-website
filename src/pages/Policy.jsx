@@ -21,7 +21,7 @@ function Policy() {
         sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy
         95/46/WE (ogólne rozporządzenie o ochronie danych), zwane dalej „RODO”.
       </p>
-      <ul className='flex flex-col gap-8'>
+      <ul className='flex flex-col gap-8 pt-8'>
         <li>
           <h4 className='text-2xl font-bold'>Zakres danych osobowych:</h4>
           <p className='pt-2'>

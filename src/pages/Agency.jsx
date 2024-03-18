@@ -31,7 +31,7 @@ function Agency() {
               potrzebami naszych klientów.
             </li>
             <li>
-              <span className='font-bold'>Leasing Pracowniczy:</span>
+              <span className='font-bold'>Leasing Pracowniczy: </span>
               Tutaj, z przymrużeniem oka, możemy powiedzieć, że wiecie, o co
               chodzi.
             </li>

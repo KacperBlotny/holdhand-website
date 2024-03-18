@@ -61,7 +61,7 @@ export const SendFiles = () => {
             class='shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline resize-none h-[100px]'
           />
         </li>
-        {/* <li>
+        <li>
           <p>Twoje CV</p>
           <input
             type='file'
@@ -74,7 +74,7 @@ export const SendFiles = () => {
    hover:file:cursor-pointer hover:file:bg-blue-50
    hover:file:text-blue-700'
           />
-        </li> */}
+        </li>
         <li>
           {/* {statusMessage} */}
           {isLoading ? (
