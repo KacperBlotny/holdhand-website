@@ -4,7 +4,7 @@ import emailjs from '@emailjs/browser'
 export const SendFiles = () => {
   const [isLoading, setIsLoading] = useState(false)
   const [statusMessage, setStatusMessage] = useState('')
-  const form = useRef()
+  const form = useRef(null)
 
   const sendEmail = (e) => {
     e.preventDefault()
@@ -16,6 +16,8 @@ export const SendFiles = () => {
       .then(
         () => {
           console.log('SUCCESS!')
+
+          form.current.reset()
           setStatusMessage('Sukces! Dziękujemy za wiadomość!')
           setIsLoading(false)
         },
