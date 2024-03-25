@@ -243,11 +243,10 @@ function Employers() {
                 Twoje potrzeby i zaproponować najbardziej efektywne rozwiązania.
               </li>
               <li>
-                <span className='font-bold'>Spotkanie i Analiza Potrzeb: </span>
-                Umówimy się na spotkanie (osobiście lub online), podczas którego
-                szczegółowo omówimy specyfikę Twojej branży, charakter pracy
-                oraz wymagane kwalifikacje kandydatów. To pozwoli nam zrozumieć
-                Twoje potrzeby i zaproponować najbardziej efektywne rozwiązania.
+                <span className='font-bold'>Propozycja Współpracy: </span>
+                Na podstawie zebranych informacji, przedstawimy Ci indywidualnie
+                dopasowaną ofertę współpracy, w tym szczegóły dotyczące procesu
+                rekrutacji, warunków finansowych oraz zakresu naszych usług.
               </li>
               <li>
                 <span className='font-bold'>Podpisanie Umowy: </span>
