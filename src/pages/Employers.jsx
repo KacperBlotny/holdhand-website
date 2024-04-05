@@ -54,11 +54,11 @@ function Employers() {
             className='mb-8 border-b border-black p-2 text-3xl font-bold'
             id='mission'
           >
-            Leasing Pracowniczy
+            Outsorcing Pracowniczy
           </h2>
           <div className='flex '>
             <p className='lg:w-1/2'>
-              Leasing pracowniczy to rozwiązanie, które umożliwia firmom
+              Outsorcing pracowniczy to rozwiązanie, które umożliwia firmom
               zatrudnienie pracowników przez pośrednictwo HoldHand. Ten model
               współpracy oferuje elastyczność w zarządzaniu zasobami ludzkimi,
               bez obciążania struktury wewnętrznej przedsiębiorstwa dodatkowymi
