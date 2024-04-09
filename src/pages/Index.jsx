@@ -7,6 +7,9 @@ import Button from '../components/shared/Button'
 import ScrollButton from '../components/shared/ScrollButton'
 import Footer from '../components/shared/Footer'
 
+import SliderEmployers from '../components/SliderEmployers'
+import SliderAgency from '../components/SliderAgency'
+
 import plane from '../assets/img/plane.jpg'
 
 function Index() {
@@ -65,6 +68,43 @@ function Index() {
           />
         </div>
       </div>
+
+      <div className='my-16 w-full bg-light flex justify-evenly py-8'>
+        <div className='flex flex-col'>
+          <h3 className=' flex pb-8 text-4xl font-bold'>Dla pracodawców</h3>
+          <p className='w-[300px]'>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio
+            possimus illum odit, accusantium eligendi dolor. Ipsam ratione rem
+            consequuntur soluta.
+          </p>
+          <Link
+            to='/for-employers'
+            className='text-white bg-normal hover:bg-normalHover focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 focus:outline-none mt-auto text-center'
+          >
+            Zobacz więcej
+          </Link>
+        </div>
+        <SliderEmployers />
+      </div>
+
+      <div className='my-16 w-full bg-light flex justify-evenly py-8'>
+        <SliderAgency />
+        <div className='flex flex-col'>
+          <h3 className=' flex pb-8 text-4xl font-bold'>Dla pracodawców</h3>
+          <p className='w-[300px]'>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio
+            possimus illum odit, accusantium eligendi dolor. Ipsam ratione rem
+            consequuntur soluta.
+          </p>
+          <Link
+            to='/for-agency'
+            className='text-white bg-normal hover:bg-normalHover focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 focus:outline-none  mt-auto text-center'
+          >
+            Zobacz więcej
+          </Link>
+        </div>
+      </div>
+
       <div className='my-16 w-full bg-light'>
         <div className='container mx-auto flex flex-col py-16'>
           <div className='mx-auto flex flex-col'>
