@@ -209,7 +209,7 @@ function About() {
               className='mx-auto w-[150px] flagImage'
             />
 
-            <div className='overlayText'>nepal</div>
+            <div className='overlayText'>Nepal</div>
           </li>
           <li className='flagList'>
             <img
