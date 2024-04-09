@@ -73,9 +73,7 @@ function Index() {
         <div className='flex flex-col'>
           <h3 className=' flex pb-8 text-4xl font-bold'>Dla pracodawców</h3>
           <p className='w-[300px]'>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio
-            possimus illum odit, accusantium eligendi dolor. Ipsam ratione rem
-            consequuntur soluta.
+            Zapoznaj się z naszą ofertą dla pracodawców
           </p>
           <Link
             to='/for-employers'
@@ -90,11 +88,9 @@ function Index() {
       <div className='my-16 w-full bg-light flex justify-evenly py-8'>
         <SliderAgency />
         <div className='flex flex-col'>
-          <h3 className=' flex pb-8 text-4xl font-bold'>Dla pracodawców</h3>
+          <h3 className=' flex pb-8 text-4xl font-bold'>Dla agencji pracy</h3>
           <p className='w-[300px]'>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio
-            possimus illum odit, accusantium eligendi dolor. Ipsam ratione rem
-            consequuntur soluta.
+            Zapoznaj się z naszą ofertą dla agencji pracy
           </p>
           <Link
             to='/for-agency'
