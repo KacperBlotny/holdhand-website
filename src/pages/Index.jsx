@@ -73,7 +73,9 @@ function Index() {
         <div className='flex flex-col'>
           <h3 className=' flex pb-8 text-4xl font-bold'>Dla pracodawców</h3>
           <p className='w-[300px]'>
-            Zapoznaj się z naszą ofertą dla pracodawców
+            Rozwijaj swój zespół z najlepszymi talentami na rynku. Odkryj nasze
+            kompleksowe rozwiązania rekrutacyjne, dostosowane do unikalnych
+            potrzeb Twojej firmy.
           </p>
           <Link
             to='/for-employers'
@@ -85,12 +87,15 @@ function Index() {
         <SliderEmployers />
       </div>
 
-      <div className='my-16 w-full bg-light flex justify-evenly py-8'>
+      <div className='my-16 w-full bg-light flex justify-evenly py-8 mb-32'>
         <SliderAgency />
         <div className='flex flex-col'>
           <h3 className=' flex pb-8 text-4xl font-bold'>Dla agencji pracy</h3>
           <p className='w-[300px]'>
-            Zapoznaj się z naszą ofertą dla agencji pracy
+            Zwiększ skuteczność swoich działań rekrutacyjnych, korzystając z
+            naszej oferty współpracy. Specjalizujemy się w dostarczaniu
+            rozwiązań, które pozwolą Ci znaleźć idealnych kandydatów dla Twoich
+            klientów.
           </p>
           <Link
             to='/for-agency'
@@ -101,7 +106,7 @@ function Index() {
         </div>
       </div>
 
-      <div className='my-16 w-full bg-light'>
+      {/* <div className='my-16 w-full bg-light'>
         <div className='container mx-auto flex flex-col py-16'>
           <div className='mx-auto flex flex-col'>
             <h3 className='bold mx-auto flex pb-8 text-4xl font-bold'>
@@ -176,7 +181,7 @@ function Index() {
             </ul>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }
