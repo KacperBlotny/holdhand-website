@@ -202,14 +202,14 @@ function About() {
 
             <div className='overlayText'>Indie</div>
           </li>
-          <li className='mx-auto w-[150px] flagList'>
+          <li className='flagList'>
             <img
               alt='flag of nepal'
               src={nepal}
-              className='h-[75px] hover:scale-105 transition-all ease-in-out duration-300'
+              className='mx-auto w-[150px] flagImage'
             />
 
-            <div className='overlayText'>Nepal</div>
+            <div className='overlayText'>nepal</div>
           </li>
           <li className='flagList'>
             <img
