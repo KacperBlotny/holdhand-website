@@ -13,7 +13,7 @@ import lease from '../assets/svg/lease.svg'
 
 function SliderAgency() {
   return (
-    <>
+    <div className='mx-auto'>
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
@@ -47,7 +47,7 @@ function SliderAgency() {
           </div>
         </SwiperSlide>
       </Swiper>
-    </>
+    </div>
   )
 }
 

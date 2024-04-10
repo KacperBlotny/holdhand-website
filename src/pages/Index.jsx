@@ -69,8 +69,8 @@ function Index() {
         </div>
       </div>
 
-      <div className='my-16 w-full bg-light flex justify-evenly py-8'>
-        <div className='flex flex-col'>
+      <div className='my-16 w-full bg-light flex md:flex-row flex-col justify-evenly py-8 mb-32'>
+        <div className='flex flex-col mx-auto py-8 md:pt-0'>
           <h3 className=' flex pb-8 text-4xl font-bold'>Dla pracodawców</h3>
           <p className='w-[300px]'>
             Rozwijaj swój zespół z najlepszymi talentami na rynku. Odkryj nasze
@@ -79,7 +79,7 @@ function Index() {
           </p>
           <Link
             to='/for-employers'
-            className='text-white bg-normal hover:bg-normalHover focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 focus:outline-none mt-auto text-center'
+            className='text-white bg-normal hover:bg-normalHover focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 focus:outline-none md:mt-auto text-center mt-8'
           >
             Zobacz więcej
           </Link>
@@ -87,9 +87,9 @@ function Index() {
         <SliderEmployers />
       </div>
 
-      <div className='my-16 w-full bg-light flex justify-evenly py-8 mb-32'>
+      <div className='my-16 w-full bg-light flex md:flex-row flex-col-reverse justify-evenly py-8 mb-32'>
         <SliderAgency />
-        <div className='flex flex-col'>
+        <div className='flex flex-col mx-auto  py-8 md:pt-0'>
           <h3 className=' flex pb-8 text-4xl font-bold'>Dla agencji pracy</h3>
           <p className='w-[300px]'>
             Zwiększ skuteczność swoich działań rekrutacyjnych, korzystając z
@@ -99,7 +99,7 @@ function Index() {
           </p>
           <Link
             to='/for-agency'
-            className='text-white bg-normal hover:bg-normalHover focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 focus:outline-none  mt-auto text-center'
+            className='text-white bg-normal hover:bg-normalHover focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 focus:outline-none md:mt-auto text-center mt-8'
           >
             Zobacz więcej
           </Link>

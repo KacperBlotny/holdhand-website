@@ -13,7 +13,7 @@ import tempwork from '../assets/svg/tempwork.svg'
 
 function SliderEmployers() {
   return (
-    <>
+    <div className='mx-auto'>
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
@@ -30,7 +30,7 @@ function SliderEmployers() {
       >
         <SwiperSlide className='mt-4'>
           <div className='h-[250px] w-[500px] flex flex-col'>
-            <p className='text-xl'>Outsorcing pracowniczy</p>
+            <p className='text-xl'>Outsourcing pracowniczy</p>
             <img src={coffebreak} className='my-auto flex' />
           </div>
         </SwiperSlide>
@@ -47,7 +47,7 @@ function SliderEmployers() {
           </div>
         </SwiperSlide>
       </Swiper>
-    </>
+    </div>
   )
 }
 
