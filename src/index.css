@@ -228,3 +228,31 @@ h2 {
 /* .swiper-pagination {
   margin-top: 2rem;
 } */
+
+.hamburger {
+  display: inline-block;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.line {
+  width: 30px;
+  height: 3px;
+  background-color: black;
+  margin: 5px 0;
+  transition:
+    transform 0.3s,
+    opacity 0.3s;
+}
+
+.hamburger.active .line:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .line:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .line:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
