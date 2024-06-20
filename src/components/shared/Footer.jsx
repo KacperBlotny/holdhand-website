@@ -9,13 +9,13 @@ import linkedin from '../../assets/svg/linkedin.svg'
 
 function Footer() {
   return (
-    <div className='bg-footer-gradient px-4' id='contact'>
+    <div className='bg-footer-gradient ' id='contact'>
       <div className=''>
-        <div className='container max-w-[1280px] mx-auto '>
+        <div className='container max-w-[1280px] mx-auto'>
           <ContactForm />
         </div>
         <div className='bg-white w-screen h-[1px] my-8'></div>
-        <div className='container max-w-[1280px] mx-auto '>
+        <div className='container max-w-[1280px] mx-auto px-4'>
           <div className='text-white flex flex-col lg:flex-row gap-16 py-8'>
             <img src={logo} alt='logo' className='h-[40px] w-fit' />
             <div className='flex gap-16'>
@@ -54,7 +54,7 @@ function Footer() {
               </div>
             </div>
           </div>
-        </div>{' '}
+        </div>
       </div>
     </div>
   )
