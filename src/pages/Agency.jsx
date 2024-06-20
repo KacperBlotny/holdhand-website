@@ -18,8 +18,12 @@ function Agency() {
     <div className='py-32 px-4'>
       <SubpageCard img={img} title='Dla agencji pracy' />
       <p className='text-main  text-2xl lg:text-4xl text-center my-32'>
-        Współpracujemy z agencjami pracy, oferujemy kompleksowe rozwiązania w
-        zakresie rekrutacji i leasingu pracowniczego.
+        Współpracujemy z wieloma agencjami pracy oraz lokalnymi rekruterami z
+        wielu państw świata, oferując kompleksowe rozwiązania w zakresie
+        rekrutacji i outsourcingu pracowniczego.
+        <br />
+        <br />
+        Jesteśmy otwarci na nowe kontakty i współpracę.
       </p>
       <div className='flex flex-col gap-16'>
         {/* Pozyskiwanie pracowników */}
@@ -27,7 +31,7 @@ function Agency() {
           <div className='flex items-center gap-4'>
             <img src={arrow} alt='' className='h-[80px] pr-8 mt-auto' />
             <p className='font-medium text-3xl mt-auto py-6'>
-              Pozyskiwanie pracowników
+              Pozyskiwanie pracowników w formie jednorazowej
             </p>
             <img
               src={deal}
@@ -37,12 +41,20 @@ function Agency() {
           </div>
           <div className='xl:ml-32 pt-8 max-w-[750px]'>
             <p className='pt-4'>
-              Oferujemy zarówno jednorazowe usługi rekrutacyjne, jak i
-              długoterminową współpracę w zakresie ciągłego dostarczania
-              wykwalifikowanych i niewykwalifikowanych pracowników.
-              Specjalizujemy się w rekrutacji międzynarodowej, co pozwala nam na
-              dostarczenie osób z różnych części świata, zgodnie z potrzebami
-              naszych klientów.
+              Prowadzimy kompleksowy proces rekrutacyjny, w tym dobór
+              kandydatów, z możliwością udziału klienta na każdym etapie. Naszym
+              priorytetem jest spełnienie wymagań klienta, aby dostarczyć
+              odpowiednich pracowników. Współpracujemy głównie z zagranicznymi
+              agencjami i rekruterami, zajmując się również legalizacją
+              zatrudnienia wybranych kandydatów. Po zakończeniu procesu
+              wystawiamy fakturę na kwotę uzgodnioną podczas wcześniejszych
+              negocjacji. Oferujemy rekrutację zarówno pracowników
+              niewykwalifikowanych, jak i wykwalifikowanych.
+            </p>
+            <br />
+            <p>
+              Jesteśmy gotowi na jednorazowe zamówienia oraz długoterminową
+              współpracę z naszymi klientami.
             </p>
           </div>
         </div>
@@ -52,7 +64,7 @@ function Agency() {
           <div className='flex items-center gap-4'>
             <img src={arrow} alt='' className='h-[80px] pr-8 mt-auto' />
             <p className='font-medium text-3xl mt-auto py-6'>
-              Leasing pracowniczy
+              Outsorcing pracowniczy
             </p>
             <img
               src={solution}
@@ -61,10 +73,7 @@ function Agency() {
             />
           </div>
           <div className='xl:ml-32 pt-8 max-w-[750px]'>
-            <p>
-              Tutaj, z przymrużeniem oka, możemy powiedzieć, że wiecie, o co
-              chodzi.
-            </p>
+            <p></p>
           </div>
         </div>
 
@@ -73,7 +82,8 @@ function Agency() {
           <div className='flex items-center gap-4'>
             <img src={arrow} alt='' className='h-[80px] pr-8 mt-auto' />
             <p className='font-medium text-3xl mt-auto py-6'>
-              Rekrutacja na zlecenie
+              Firma, którą reprezentujesz zajmuje się rektruacją/pośrednictwem
+              zatrudnienia?
             </p>
             <img
               src={update}
@@ -83,14 +93,22 @@ function Agency() {
           </div>
           <div className='xl:ml-32 pt-8 max-w-[750px]'>
             <p>
-              Usługa rekrutacji zagranicznych pracowników, ich sprowadzenia do
-              Polski i wdrożenia u finalnego klienta. HoldHand działa jako
-              pośrednik, oferując agencjom transparentność kosztów i
-              elastyczność. Klient końcowy jest pracodawcą, zapewnia
-              zakwaterowanie i definiuje obowiązki.
+              Czekamy na kontakt! Przedstawcie Państwo nam swoją ofertę,
+              korzystając z formularza kontaktowego lub wysyłając nam na maila,
+              a my z pewnością zapoznamy się i odezwiemy.
+              <br />
+              <br />
+              Jesteśmy zawsze otwarci na przedstawiane przez Państwa usługi i
+              propozycje dot. współpracy.
             </p>
           </div>
         </div>
+      </div>
+      <div className='text-main max-w-[750px] mx-auto pt-32'>
+        <p className='text-4xl font-medium'>Jesteś zainteresowan-y/a?</p>
+        <br />
+
+        <p>Czekamy na twój kontakt! Wypełnij formularz poniżej!</p>
       </div>
     </div>
   )
