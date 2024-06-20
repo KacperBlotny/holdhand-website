@@ -21,27 +21,33 @@ function Index() {
   return (
     <div className='pt-32 px-4'>
       <ul className='lg:flex-row mx-auto flex-col flex justify-between gap-8'>
-        <li className='mx-auto lg:mx-0'>
-          <HeroCard
-            img={worker}
-            title='Dla pracowników'
-            desc='Naszym celem jest ułatwienie Tobie dostępu do szerokiej gamy ofert pracy, odpowiadającym Twoim umiejętnościom oraz oczekiwaniom zawodowym.'
-          />
-        </li>
-        <li className='mx-auto lg:mx-0'>
-          <HeroCard
-            img={team}
-            title='Dla pracodawców'
-            desc='Rozwijaj swój zespół z najlepszymi talentami na rynku. Odkryj nasze kompleksowe rozwiązania rekrutacyjne, dostosowane do unikalnych potrzeb Twojej firmy.'
-          />
-        </li>
-        <li className='mx-auto lg:mx-0'>
-          <HeroCard
-            img={mapAirplane}
-            title='Dla agencji pracy'
-            desc='Zwiększ skuteczność rekrutacji dzięki naszej ofercie. Specjalizujemy się w dostarczaniu rozwiązań, które znajdą idealnych kandydatów dla Twoich klientów.'
-          />
-        </li>
+        <Link to='/for-employees'>
+          <li className='mx-auto lg:mx-0'>
+            <HeroCard
+              img={worker}
+              title='Dla pracowników'
+              desc='Naszym celem jest ułatwienie Tobie dostępu do szerokiej gamy ofert pracy, odpowiadającym Twoim umiejętnościom oraz oczekiwaniom zawodowym.'
+            />
+          </li>
+        </Link>
+        <Link to='/for-employers'>
+          <li className='mx-auto lg:mx-0'>
+            <HeroCard
+              img={team}
+              title='Dla pracodawców'
+              desc='Rozwijaj swój zespół z najlepszymi talentami na rynku. Odkryj nasze kompleksowe rozwiązania rekrutacyjne, dostosowane do unikalnych potrzeb Twojej firmy.'
+            />
+          </li>{' '}
+        </Link>
+        <Link to='/for-agency'>
+          <li className='mx-auto lg:mx-0'>
+            <HeroCard
+              img={mapAirplane}
+              title='Dla agencji pracy'
+              desc='Zwiększ skuteczność rekrutacji dzięki naszej ofercie. Specjalizujemy się w dostarczaniu rozwiązań, które znajdą idealnych kandydatów dla Twoich klientów.'
+            />
+          </li>{' '}
+        </Link>
       </ul>
       <p className='text-main  text-2xl lg:text-4xl text-center my-32'>
         Ułatwiamy rekrutację i budujemy zaufane relacje, łącząc profesjonalizm z
