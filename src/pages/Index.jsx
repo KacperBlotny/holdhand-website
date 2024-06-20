@@ -64,7 +64,7 @@ function Index() {
           różnych części świata- od specjalistów, aż po pracowników fizycznych.
           Jako nasze główne obszary rekrutacyjne zdecydowanie wskazujemy na:
           Nepal, Wietnam i Azerbejdżan. Współpracując w tych krajach z lokalnymi
-          rekruterami, firmami i agencjami zatrudnienia- dopasowujemy się do
+          rekruterami, firmami i agencjami zatrudnieniadopasowujemy się do
           potrzeb i wymagań naszych klientów.
         </p>
       </div>
@@ -91,8 +91,9 @@ function Index() {
             />
             <p className='text-white max-w-[800px] ml-8'>
               Nasze działania mają zaspokoić potrzeby rynku pracy w Polsce i
-              oferować stabilne zatrudnienie osobom z zagranicy. Jest to
-              wsparcie i rozwój polskiej gospodarki i lokalnych przedsiębiorstw.
+              oferować stabilne zatrudnienie osobom z zagranicy. Służy to
+              wsparciu rozwoju gospodarki krajowej i lokalnych polskich
+              przedsiębiorstw
             </p>
           </div>
           <div className='flex items-center justify-start lg:justify-center mx-4 lg:mx-24'>

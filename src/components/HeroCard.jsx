@@ -11,7 +11,7 @@ function HeroCard({ img, title, desc }) {
           <h2 className='text-2xl font-bold group-hover:text-mainHover transition-colors duration-300'>
             {title}
           </h2>
-          <p className='mt-2 group-hover:text-mainHover transition-colors duration-300 h-[60px] text-sm'>
+          <p className='mt-2 group-hover:text-mainHover transition-colors duration-300 h-[60px] text-sm mb-4'>
             {desc}
           </p>
         </div>
