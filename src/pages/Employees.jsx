@@ -1,187 +1,119 @@
-import React from 'react'
-
 import { useEffect } from 'react'
-import logo from '../assets/logo/Logo-04.png'
+import SubpageCard from '../components/shared/SubpageCard'
 
-import nepalFlag from '../assets/flag/nepal.png'
-import vietnamFlag from '../assets/flag/vietnam.png'
-import azerbFlag from '../assets/flag/azerbaijan.png'
-import SendFiles from '../components/SendFiles'
+import img from '../assets/img/orange-worker.png'
+
+import arrow from '../assets/svg/arrows/arrow_right_blue.svg'
+
+import right from '../assets/svg/undraw/right.svg'
+import highfive from '../assets/svg/undraw/highfive.svg'
+import questionmark from '../assets/svg/undraw/questionmark.svg'
 
 function Employees() {
   useEffect(() => {
     document.title = 'Holdhand | Dla pracowników'
   }, [])
-
   return (
-    <div className='lg:pt-234 container mx-auto flex flex-col px-8 pt-24'>
-      <div className='flex flex-col lg:pt-8 text-2xl lg:flex-row'>
-        <p className='w-full pb-8'>
-          W HoldHand pośredniczymy w znalezieniu pracy na wakaty w fabrykach,
-          magazynach i innych miejscach. Naszym celem jest ułatwienie Tobie
-          dostępu do szerokiej gamy ofert pracy, które odpowiadają Twoim
-          umiejętnościom i oczekiwaniom zawodowym.
-        </p>
-        <img
-          src={logo}
-          alt='holdhand logo'
-          className='w-[200px] hidden lg:flex'
-        />
-        <div id='findjob'></div>
-      </div>
-      <div className='pb-32'>
-        <h1
-          className='bold mb-8 border-b border-black p-2 text-4xl lg:text-5xl'
-          id='mission'
-        >
-          Znajdź Pracę
-        </h1>
-        <ul className='flex flex-col gap-4'>
-          <li className='flex flex-col gap-4'>
-            <h2 className='font-bold'>Jak to działa?</h2>
-            <p>
-              Rozumiejąc unikalne cele zawodowe i preferencje naszych
-              kandydatów, HoldHand oferuje możliwość zgłaszania zapotrzebowania
-              na konkretne stanowiska pracy. Jesteśmy tutaj, aby wspierać Cię w
-              realizacji zawodowych aspiracji i znalezieniu ofert pracy, które
-              idealnie odpowiadają Twoim oczekiwaniom.
-            </p>
-          </li>
-          <li className='flex flex-col gap-4'>
-            <h2 className='font-bold'>Jak postępować?</h2>
-            <ul className='list-disc'>
+    <div className='py-32 px-4'>
+      <SubpageCard img={img} title='Dla pracowników' />
+      <p className='text-main  text-2xl lg:text-4xl text-center my-32'>
+        Umożliwiamy zgłaszanie zapotrzebowania na konkretne stanowiska pracy,
+        wspierając realizację Twoich zawodowych aspiracji i dopasowując oferty
+        do Twoich oczekiwań.
+      </p>
+      <div className='flex flex-col gap-16'>
+        {/* Jak postępować */}
+        <div className='text-main flex flex-col xl:pl-32'>
+          <div className='flex items-center gap-4'>
+            <img src={arrow} alt='' className='h-[80px] pr-8 mt-auto' />
+            <p className='font-medium text-3xl mt-auto py-6'>Jak postępować?</p>
+            <img
+              src={right}
+              alt='undraw right'
+              className='h-[260px] ml-auto hidden xl:block'
+            />
+          </div>
+          <div className='xl:ml-32 pt-8 max-w-[750px]'>
+            <ul className='list-disc flex flex-col gap-4 pl-8'>
               <li>
-                <span className='font-bold'>
-                  Zdefiniuj Swoje Idealne Miejsce Pracy:{' '}
-                </span>
-                Zastanów się nad preferowanym zawodem oraz specyfiką stanowiska,
-                na którym chciałbyś pracować.
+                Zdefiniuj Swoje Idealne Miejsce Pracy: Zastanów się nad
+                preferowanym zawodem oraz specyfiką stanowiska, na którym
+                chciałbyś pracować.
               </li>
               <li>
-                <span className='font-bold'>Prześlij Nam Swoje CV: </span>
-                Korzystając z formularza kontaktowego na naszej stronie, wyślij
-                nam swoje aktualne CV wraz z opisem poszukiwanego stanowiska.
+                Prześlij Nam Swoje CV: Korzystając z formularza kontaktowego na
+                naszej stronie, wyślij nam swoje aktualne CV wraz z opisem
+                poszukiwanego stanowiska.
               </li>
               <li>
-                <span className='font-bold'>
-                  Oczekuj na Informacje Zwrotne:{' '}
-                </span>
-                Gdy tylko zidentyfikujemy oferty pracy pasujące do Twoich
-                kryteriów, skontaktujemy się z Tobą drogą mailową,
-                przedstawiając Ci szczegółowe informacje.
+                Oczekuj na Informacje Zwrotne: Gdy tylko zidentyfikujemy oferty
+                pracy pasujące do Twoich kryteriów, skontaktujemy się z Tobą
+                drogą mailową, przedstawiając Ci szczegółowe informacje.
               </li>
             </ul>
-            <p>
-              Ta usługa zapewnia dostosowanie procesu poszukiwania pracy do
-              indywidualnych potrzeb i preferencji kandydata, maksymalizując tym
-              samym szanse na znalezienie wymarzonego zatrudnienia. Z HoldHand
-              każdy krok przybliża Cię do osiągnięcia zawodowego sukcesu. Nie
-              wahaj się – wyraź swoje zawodowe aspiracje już teraz, a my zrobimy
-              wszystko, aby pomóc Ci je zrealizować.
-            </p>
-          </li>
-          <li className='flex flex-col gap-4'>
-            <h2 className='font-bold'>Dlaczego HoldHand?</h2>
-            <ul className='list-disc'>
-              <li>
-                <span className='font-bold'>Różnorodność Ofert: </span>
-                Znajdziesz u nas oferty pracy z wielu branż, co zwiększa Twoje
-                szanse na znalezienie idealnej pracy.
-              </li>
-              <li>
-                <span className='font-bold'>
-                  Prosty i Przejrzysty Proces Aplikacji:{' '}
-                </span>
-                Nasza strona jest zaprojektowana tak, aby ułatwić Ci aplikowanie
-                i szybkie znalezienie interesujących Cię ofert.
-              </li>
-              <li>
-                <span className='font-bold'>Wsparcie na Każdym Kroku: </span>
-                Jesteśmy tutaj, aby pomóc Ci w procesie rekrutacji. Jeśli masz
-                pytania lub potrzebujesz pomocy, jesteśmy do Twojej dyspozycji.
-              </li>
-            </ul>
-          </li>
-          <li className='flex flex-col gap-4'>
-            <h2 className='font-bold'>Odkryj Nowe Możliwości</h2>
-            <p>
-              Z HoldHand możesz łatwo znaleźć ofertę pracy, która stanie się
-              początkiem nowego rozdziału w Twoim życiu zawodowym, niezależnie
-              od tego w jakiej branży poszukujesz stanowiska. Nasze oferty są
-              starannie wyselekcjonowane, aby zapewnić Ci najlepsze możliwości
-              rozwoju. Zacznij swoją podróż z nami już dziś i krok po kroku
-              buduj swoją przyszłość. Odkryj, co HoldHand może Ci zaoferować i
-              nie pozwól, aby Twoja kariera stała w miejscu. (edytowane)
-            </p>
-          </li>
-        </ul>
-        <div id='jointeam'></div>
-      </div>
-      <div className='pb-32'>
-        <h2
-          className='bold mb-8 border-b border-black p-2 text-4xl lg:text-5xl'
-          id='mission'
-        >
-          Dołącz do naszego zespołu
-        </h2>
-        <div className='flex flex-col gap-2 lg:flex-row justify-between'>
-          <div className='w-1/2'>
-            <p className=''>
-              W HoldHand ciągle rozwijamy nasze usługi i portfolio klientów,
-              dążąc do świadczenia najwyższej jakości usług w branży. Chociaż w
-              tym momencie nie prowadzimy aktywnej rekrutacji do naszego zespołu
-              biurowego, zawsze jesteśmy otwarci na poznanie nowych,
-              utalentowanych osób, które mogą dołączyć do nas w przyszłości.
-            </p>
-            <p className='pt-8'>
-              Jeśli jesteś zainteresowany pracą w HoldHand, zachęcamy do
-              wypełnienia formularza zgłoszeniowego. Podaj w nim informacje o
-              sobie, swoje doświadczenie zawodowe oraz stanowisko, na którym
-              chciałbyś pracować. Wśród stanowisk, które mogą nas interesować w
-              przyszłości, znajdują się m.in. pracownik biurowy, sekretarka,
-              koordynator projektów i inne role wspierające naszą działalność.
+            <p className='pt-4'>
+              Nasza usługa dostosowuje proces poszukiwania pracy do Twoich
+              potrzeb, zwiększając szanse na znalezienie idealnego zatrudnienia.
+              Z HoldHand każdy krok przybliża Cię do zawodowego sukcesu. Wyraź
+              swoje aspiracje, a my pomożemy Ci je zrealizować.
             </p>
           </div>
-          <SendFiles />
-        </div>{' '}
-        <div>
-          <div className='flex flex-col gap-4'>
-            <h2 className='font-bold'>Jak to działa?</h2>
-            <ul className='list-disc'>
+        </div>
+
+        {/* Dlaczego holdhand */}
+        <div className='text-main flex flex-col xl:pl-32'>
+          <div className='flex items-center gap-4'>
+            <img src={arrow} alt='' className='h-[80px] pr-8 mt-auto' />
+            <p className='font-medium text-3xl mt-auto py-6'>
+              Dlaczego HoldHand?
+            </p>
+            <img
+              src={highfive}
+              alt='undraw questionmark'
+              className='h-[260px]  ml-auto xl:block hidden'
+            />
+          </div>
+          <div className='xl:ml-32 pt-8 max-w-[750px]'>
+            <ul className='list-disc flex flex-col gap-4 pl-8'>
               <li>
-                <span className='font-bold'>Wypełnij Formularz: </span>
-                Podaj interesujące Cię stanowisko i podaj swoje dane kontaktowe
-                oraz CV.
+                Różnorodność Ofert: Znajdziesz u nas oferty pracy z wielu branż,
+                co zwiększa Twoje szanse na znalezienie idealnej pracy.
               </li>
               <li>
-                <span className='font-bold'>Poczekaj na Kontakt: </span>
-                Gdy tylko rozpoczniemy poszukiwania nowych członków zespołu
-                pasujących do Twojego profilu, skontaktujemy się z Tobą, aby
-                omówić możliwości współpracy.
-              </li>
-            </ul>
-            <h2 className='font-bold'>Dlaczego warto do nas dołączyć?</h2>
-            <ul className='list-disc'>
-              <li>
-                <span className='font-bold'>Rozwój i Szkolenia: </span>W
-                HoldHand stawiamy na ciągły rozwój kompetencji naszego zespołu
+                Prosty i Przejrzysty Proces Aplikacji: Nasza strona jest
+                zaprojektowana tak, aby ułatwić Ci aplikowanie i szybkie
+                znalezienie interesujących Cię ofert.
               </li>
               <li>
-                <span className='font-bold'>Przyjazna Atmosfera: </span>
-                Dbamy o pozytywną atmosferę pracy i wspieramy się nawzajem w
-                realizacji zawodowych celów.
-              </li>
-              <li>
-                <span className='font-bold'>Różnorodne Projekty: </span>
-                Praca w naszej firmie to możliwość uczestniczenia w
-                interesujących projektach i zdobywania cennego doświadczenia.
+                Wsparcie na Każdym Kroku: Jesteśmy tutaj, aby pomóc Ci w
+                procesie rekrutacji. Jeśli masz pytania lub potrzebujesz pomocy,
+                jesteśmy do Twojej dyspozycji.
               </li>
             </ul>
+          </div>
+        </div>
+
+        {/* Odkryj nowe mozliwosci */}
+        {/* Dlaczego holdhand */}
+        <div className='text-main flex flex-col xl:pl-32'>
+          <div className='flex items-center gap-4'>
+            <img src={arrow} alt='' className='h-[80px] pr-8 mt-auto' />
+            <p className='font-medium text-3xl mt-auto py-6'>
+              Odkryj nowe możliwości
+            </p>
+            <img
+              src={questionmark}
+              alt='undraw highfive'
+              className='h-[260px]  ml-auto hidden'
+            />
+          </div>
+          <div className='xl:ml-32 pt-8 max-w-[750px]'>
             <p>
-              Twoja przyszłość w HoldHand może zacząć się dzisiaj. Nie przegap
-              szansy na dołączenie do zespołu, który stawia na innowacje, rozwój
-              i wzajemne wsparcie. Wypełnij formularz zgłoszeniowy – niech to
-              będzie pierwszy krok do naszej potencjalnej współpracy.
+              Z HoldHand łatwo znajdziesz ofertę pracy, która otworzy nowy
+              rozdział w Twoim życiu zawodowym, bez względu na branżę. Nasze
+              starannie wyselekcjonowane oferty zapewnią Ci najlepsze możliwości
+              rozwoju. Zacznij z nami już dziś, odkryj nasze możliwości i nie
+              pozwól, by Twoja kariera stała w miejscu.
             </p>
           </div>
         </div>

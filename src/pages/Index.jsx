@@ -1,16 +1,17 @@
 import React from 'react'
 import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import mainphoto from '../assets/holdhand-mainpage.jpg'
-import worker from '../assets/worker.jpg'
-import Button from '../components/shared/Button'
-import ScrollButton from '../components/shared/ScrollButton'
-import Footer from '../components/shared/Footer'
 
-import SliderEmployers from '../components/SliderEmployers'
-import SliderAgency from '../components/SliderAgency'
+import HeroCard from '../components/HeroCard'
+import Faq from '../components/FAQ/Faq'
 
-import plane from '../assets/img/plane.jpg'
+import img from '../assets/img/hands.jpg'
+import map from '../assets/img/holdhand_mapa.png'
+import arrowRight from '../assets/svg/arrows/arrow_right.svg'
+
+import worker from '../assets/img/image.png'
+import team from '../assets/img/hands-team.png'
+import mapAirplane from '../assets/img/map-airplane.png'
 
 function Index() {
   useEffect(() => {
@@ -18,170 +19,93 @@ function Index() {
   }, [])
 
   return (
-    <div className=''>
-      <div className='bg-white shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px] p-4 sm:p-8 rounded-xl absolute xl:top-60 xl:left-40 sm:top-40 sm:left-20 top-20 left-10'>
-        <p className='font-bold sm:text-4xl pb-8 text-2xl'>
-          Wspieramy twój <span className='text-blue-400'>sukces,</span>
-          <p></p> łączymy świat <span className='text-blue-400'>pracy.</span>
-        </p>
-        <p className=''>
-          <Link
-            to='/about-us'
-            className='bg-normal font-bold text-white py-3 px-4 rounded-lg hover:bg-normalActive transition ease-in-out duration-300'
-          >
-            Zobacz więcej
-          </Link>
-        </p>
-      </div>
-      <div className='mainPhoto absolute h-full w-full'></div>
-      <div className='mainexpander'></div>
-      <div className='container mx-auto flex flex-col py-24'>
-        <h1 className='p-4 text-5xl'>Witaj w Holdhand</h1>
-
-        <div className='mx-auto flex justify-between p-4 lg:flex-row flex-col'>
-          <div className='my-auto flex lg:w-1/2 flex-col'>
-            <p className='py-2'>
-              HoldHand, z siedzibą w Lublinie, to agencja zatrudnienia, która
-              wykorzystuje nowoczesne technologie, aby oferować najwyższej
-              jakości usługi dla naszych klientów.
-            </p>
-            <p className='py-2'>
-              Skupiamy się na tworzeniu wartości poprzez innowacyjne
-              rozwiązania, które umożliwiają skuteczną rekrutację i budowanie
-              solidnych relacji opartych na zaufaniu. Promujemy kulturę
-              otwartości i ciągłego rozwoju, dążąc do tego, aby każda współpraca
-              przynosiła wymierne korzyści i wzmacniała więzi międzyludzkie.
-            </p>
-            <p className='py-2'>
-              W HoldHand łączymy profesjonalizm z pasją, co pozwala nam wspierać
-              rozwój zarówno pracowników, jak i partnerów biznesowych.
-            </p>
-            <div className='pt-4 mb-8'>
-              <Button text='O nas' link='about-us' type='main' />
-              <ScrollButton text='Kontakt' location='#contact' type='' />
-            </div>
-          </div>
-          <img
-            src={plane}
-            alt='holdhand plane'
-            className='xl:w-[600px] lg:mb-auto lg:w-[400px] w-full xl:mr-8 shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px] rounded'
+    <div className='pt-32 px-4'>
+      <ul className='lg:flex-row mx-auto flex-col flex justify-between gap-8'>
+        <li className='mx-auto lg:mx-0'>
+          <HeroCard
+            img={worker}
+            title='Dla pracowników'
+            desc='Naszym celem jest ułatwienie Tobie dostępu do szerokiej gamy ofert pracy, odpowiadającym Twoim umiejętnościom oraz oczekiwaniom zawodowym.'
           />
-        </div>
+        </li>
+        <li className='mx-auto lg:mx-0'>
+          <HeroCard
+            img={team}
+            title='Dla pracodawców'
+            desc='Rozwijaj swój zespół z najlepszymi talentami na rynku. Odkryj nasze kompleksowe rozwiązania rekrutacyjne, dostosowane do unikalnych potrzeb Twojej firmy.'
+          />
+        </li>
+        <li className='mx-auto lg:mx-0'>
+          <HeroCard
+            img={mapAirplane}
+            title='Dla agencji pracy'
+            desc='Zwiększ skuteczność rekrutacji dzięki naszej ofercie. Specjalizujemy się w dostarczaniu rozwiązań, które znajdą idealnych kandydatów dla Twoich klientów.'
+          />
+        </li>
+      </ul>
+      <p className='text-main  text-2xl lg:text-4xl text-center my-32'>
+        Ułatwiamy rekrutację i budujemy zaufane relacje, łącząc profesjonalizm z
+        pasją, stawiamy przede wszystkim na rozwój pracowników oraz naszych
+        partnerów biznesowych.
+      </p>
+      <img src={map} alt='world map' />
+      <div className='py-16'>
+        <h1 className='text-4xl font-bold text-main pb-6'>
+          Rekrutujemy z całego świata
+        </h1>
+        <p className='text-main'>
+          Dzięki relacjom z zagranicznymi rekruterami pozyskujemy pracowników z
+          różnych części świata- od specjalistów, aż po pracowników fizycznych.
+          Jako nasze główne obszary rekrutacyjne zdecydowanie wskazujemy na:
+          Nepal, Wietnam i Azerbejdżan. Współpracując w tych krajach z lokalnymi
+          rekruterami, firmami i agencjami zatrudnienia- dopasowujemy się do
+          potrzeb i wymagań naszych klientów.
+        </p>
       </div>
-
-      <div className='my-16 w-full bg-light flex md:flex-row flex-col justify-evenly py-8 mb-32'>
-        <div className='flex flex-col mx-auto py-8 md:pt-0'>
-          <h3 className=' flex pb-8 text-4xl font-bold'>Dla pracodawców</h3>
-          <p className='w-[300px]'>
-            Rozwijaj swój zespół z najlepszymi talentami na rynku. Odkryj nasze
-            kompleksowe rozwiązania rekrutacyjne, dostosowane do unikalnych
-            potrzeb Twojej firmy.
-          </p>
-          <Link
-            to='/for-employers'
-            className='text-white bg-normal hover:bg-normalHover focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 focus:outline-none md:mt-auto text-center mt-8'
-          >
-            Zobacz więcej
-          </Link>
-        </div>
-        <SliderEmployers />
-      </div>
-
-      <div className='my-16 w-full bg-light flex md:flex-row flex-col-reverse justify-evenly py-8 mb-32'>
-        <SliderAgency />
-        <div className='flex flex-col mx-auto  py-8 md:pt-0'>
-          <h3 className=' flex pb-8 text-4xl font-bold'>Dla agencji pracy</h3>
-          <p className='w-[300px]'>
-            Zwiększ skuteczność swoich działań rekrutacyjnych, korzystając z
-            naszej oferty współpracy. Specjalizujemy się w dostarczaniu
-            rozwiązań, które pozwolą Ci znaleźć idealnych kandydatów dla Twoich
-            klientów.
-          </p>
-          <Link
-            to='/for-agency'
-            className='text-white bg-normal hover:bg-normalHover focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 focus:outline-none md:mt-auto text-center mt-8'
-          >
-            Zobacz więcej
-          </Link>
-        </div>
-      </div>
-
-      {/* <div className='my-16 w-full bg-light'>
-        <div className='container mx-auto flex flex-col py-16'>
-          <div className='mx-auto flex flex-col'>
-            <h3 className='bold mx-auto flex pb-8 text-4xl font-bold'>
-              Dla pracodawców
-            </h3>
-            <ul className='flex justify-evenly lg:gap-16 gap-8 lg:flex-row flex-col'>
-              <li className='min-w-fit flex flex-col'>
-                <i class='fa-regular fa-user mx-auto text-3xl'></i>
-                <Link
-                  to='/for-employers'
-                  className='hover:bg-normalActive text-xl bg-normal text-white py-2 px-3 mt-4 rounded-xl transition ease-in-out duration-300 mx-auto'
-                >
-                  Outsorcing pracowniczy
-                </Link>
-              </li>
-              <li className='min-w-fit flex flex-col'>
-                <i class='fa-solid fa-book-open mx-auto  text-3xl'></i>
-
-                <Link
-                  to='/for-employers'
-                  className='hover:bg-normalActive text-xl bg-normal text-white py-2 px-3 mt-4 rounded-xl transition ease-in-out duration-300 mx-auto'
-                >
-                  Rekrutacja na zlecenie
-                </Link>
-              </li>
-
-              <li className='min-w-fit flex flex-col'>
-                <i class='fa-regular fa-clock mx-auto text-3xl'></i>
-                <Link
-                  to='/for-employers'
-                  className='hover:bg-normalActive text-xl bg-normal text-white py-2 px-3 mt-4 rounded-xl transition ease-in-out duration-300 mx-auto'
-                >
-                  Praca tymczasowa
-                </Link>
-              </li>
-            </ul>
+      <div className='w-full bg-hero-gradient rounded-3xl h-auto lg:min-h-[660px] flex items-center justify-end'>
+        <div className='my-auto gap-16 flex flex-col py-8'>
+          <div className='flex items-center justify-start lg:justify-center mx-4 lg:mx-24'>
+            <img
+              src={arrowRight}
+              alt='arrow right'
+              className='lg:w-[80px] w-[60px]'
+            />
+            <p className='text-white max-w-[800px] ml-8'>
+              W 2022 r. w Polsce wskaźnik bezrobocia wynosił 1.8%, a liczba
+              wolnych miejsc pracy osiągnęła 139,8 tys. Widzimy lukę między
+              zasobami pracowniczymi a potrzebami rynku, co podkreśla
+              konieczność otwarcia rynku pracy na zagranicznych pracowników.
+            </p>
+          </div>
+          <div className='flex items-center justify-start lg:justify-center mx-4 lg:mx-24'>
+            <img
+              src={arrowRight}
+              alt='arrow right'
+              className='lg:w-[80px] w-[60px]'
+            />
+            <p className='text-white max-w-[800px] ml-8'>
+              Nasze działania mają zaspokoić potrzeby rynku pracy w Polsce i
+              oferować stabilne zatrudnienie osobom z zagranicy. Jest to
+              wsparcie i rozwój polskiej gospodarki i lokalnych przedsiębiorstw.
+            </p>
+          </div>
+          <div className='flex items-center justify-start lg:justify-center mx-4 lg:mx-24'>
+            <img
+              src={arrowRight}
+              alt='arrow right'
+              className='lg:w-[80px] w-[60px]'
+            />
+            <p className='text-white max-w-[800px] ml-8'>
+              Dążymy do odpowiedzialnego dopasowywania pracowników, aby budować
+              silną, zróżnicowaną gospodarkę. Naszym głównym celem jest
+              zapełnienie luki na rynku pracy i budowanie mostów
+              międzykulturowych.
+            </p>
           </div>
         </div>
-        <div className='container mx-auto flex flex-col py-16'>
-          <div className='mx-auto flex flex-col'>
-            <h3 className='bold mx-auto flex pb-8 text-4xl font-bold'>
-              Dla Agencji pracy
-            </h3>
-            <ul className='flex justify-evenly lg:gap-16 gap-8 lg:flex-row flex-col'>
-              <li className='min-w-fit flex flex-col'>
-                <i class='fa-solid fa-magnifying-glass mx-auto text-3xl'></i>
-                <Link
-                  to='/for-agency'
-                  className='hover:bg-normalActive text-xl bg-normal text-white py-2 px-3 mt-4 rounded-xl transition ease-in-out duration-300 mx-auto'
-                >
-                  Pozyskiwanie pracowników
-                </Link>
-              </li>
-              <li className='min-w-fit flex flex-col'>
-                <i class='fa-regular fa-user mx-auto text-3xl'></i>
-                <Link
-                  to='/for-agency'
-                  className='hover:bg-normalActive text-xl bg-normal text-white py-2 px-3 mt-4 rounded-xl transition ease-in-out duration-300 mx-auto'
-                >
-                  Leasing pracowniczy
-                </Link>
-              </li>
-              <li className='min-w-fit flex flex-col'>
-                <i class='fa-solid fa-book-open mx-auto  text-3xl'></i>
-                <Link
-                  to='/for-agency'
-                  className='hover:bg-normalActive text-xl bg-normal text-white py-2 px-3 mt-4 rounded-xl transition ease-in-out duration-300 mx-auto'
-                >
-                  Rekrutacja na zlecenie
-                </Link>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div> */}
+      </div>
+      <div id='faq'></div>
+      <Faq />
     </div>
   )
 }

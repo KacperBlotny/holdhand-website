@@ -1,0 +1,37 @@
+.wrapper {
+  overflow: hidden;
+}
+.wrapper .question-container {
+  width: 100%;
+  text-align: left;
+  padding: 20px 10px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 20px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+.question-container.active {
+  color: #00249a;
+}
+.question-container:hover {
+  color: #00249a;
+}
+.wrapper .arrow {
+  font-size: 2rem;
+  transition: 0.3s;
+}
+.arrow.active {
+  rotate: 90deg;
+}
+.wrapper .answer-container {
+  padding: 0 1rem;
+  transition: height 0.3s;
+}
+.wrapper .answer-content {
+  padding-left: 1rem;
+  padding-bottom: 2rem;
+  font-size: 1rem;
+}
