@@ -66,7 +66,7 @@ function Agency() {
           <div className='flex items-center gap-4'>
             <img src={arrow} alt='' className='h-[80px] pr-8 mt-auto' />
             <p className='font-medium text-3xl mt-auto py-6'>
-              Outsorcing pracowniczy
+              Outsourcing pracowniczy
             </p>
             <img
               src={solution}
