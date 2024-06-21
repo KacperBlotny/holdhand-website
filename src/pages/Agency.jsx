@@ -10,6 +10,8 @@ import update from '../assets/svg/undraw/update.svg'
 import solution from '../assets/svg/undraw/solution.svg'
 import deal from '../assets/svg/undraw/deal.svg'
 
+import DownloadButton from '../components/DownloadButton'
+
 function Agency() {
   useEffect(() => {
     document.title = 'Holdhand | Dla agencji pracy'
@@ -108,7 +110,12 @@ function Agency() {
         <p className='text-4xl font-medium'>Jesteś zainteresowan-y/a?</p>
         <br />
 
-        <p>Czekamy na twój kontakt! Wypełnij formularz poniżej!</p>
+        <p>
+          Wypełnij poniższy formularz i prześlij na nasz adres emial
+          <span className='font-bold'> office@holdhand.eu</span>, a my
+          sporządzimy kompleksową wycenę, którą prześlemy pod twój adres e-mail.
+        </p>
+        <DownloadButton />
       </div>
     </div>
   )

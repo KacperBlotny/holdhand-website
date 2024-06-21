@@ -12,10 +12,10 @@ function ContactForm() {
 
     emailjs
       .sendForm(
-        'service_zwh185j',
-        'template_cfzls4q',
+        'service_ymchy9l',
+        'template_6a7vh0g',
         form.current,
-        '0cgRTZcUDa00MRlUb'
+        'J337P1G-yZM6S-ISK'
       )
       .then(
         (result) => {
@@ -102,8 +102,8 @@ function ContactForm() {
           </form>
 
           {popupVisible && (
-            <div className='fixed inset-0 flex items-center justify-center bg-black bg-opacity-50'>
-              <div className='bg-white p-4 rounded shadow-md'>
+            <div className='fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 text-black'>
+              <div className='bg-white p-4 rounded shadow-md text-black'>
                 <p>
                   Wiadomość wysłana pomyślnie! Dziękujemy za skorzystanie z
                   formularza!

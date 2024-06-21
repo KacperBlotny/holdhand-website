@@ -18,14 +18,26 @@ function Footer() {
         <div className='container max-w-[1280px] mx-auto px-4'>
           <div className='text-white flex flex-col lg:flex-row gap-16 py-8'>
             <img src={logo} alt='logo' className='h-[40px] w-fit' />
-            <div className='flex gap-16'>
-              <div>
-                <p>HOLDHAND sp. z o.o.</p>
-                <p>Okopowa 8, 20-022 Lublin</p>
+            <div className='flex flex-col lg:flex-row gap-16'>
+              <div className='flex gap-16'>
+                <div>
+                  <p className='font-bold'>HOLDHAND sp. z o.o.</p>
+                  <p className='text-mainHover'>Okopowa 8, 20-022 Lublin</p>
+                </div>
+                <div>
+                  <p>NIP: 7123467590</p>
+                  <p>REGON: 527332599</p>
+                </div>
               </div>
-              <div>
-                <p>NIP: 7123467590</p>
-                <p>REGON: 527332599</p>
+              <div className='flex gap-16'>
+                <div>
+                  <p className='font-bold'>HOLDHAND APT sp. z o.o.</p>
+                  <p className='text-mainHover'>Okopowa 8, 20-022 Lublin</p>
+                </div>
+                <div>
+                  <p>NIP: 7123476784</p>
+                  <p>REGON: 528885290</p>
+                </div>
               </div>
             </div>
           </div>
@@ -45,12 +57,20 @@ function Footer() {
                 office@holdhand.eu
               </p>
               <div className='flex justify-evenly gap-8'>
-                <div class='flex items-center justify-center h-12 w-12 rounded-full border border-gray-300 overflow-hidden transition duration-300 ease-in-out hover:bg-blue-200 cursor-pointer'>
+                <a
+                  class='flex items-center justify-center h-12 w-12 rounded-full border border-gray-300 overflow-hidden transition duration-300 ease-in-out hover:bg-blue-200 cursor-pointer'
+                  href='https://discord.gg/wbeVNTC7dy'
+                  target='_blank'
+                >
                   <img src={discord} alt='discord' />
-                </div>
-                <div class='flex items-center justify-center h-12 w-12 rounded-full border border-gray-300 overflow-hidden transition duration-300 ease-in-out hover:bg-blue-200 cursor-pointer'>
+                </a>
+                <a
+                  class='flex items-center justify-center h-12 w-12 rounded-full border border-gray-300 overflow-hidden transition duration-300 ease-in-out hover:bg-blue-200 cursor-pointer'
+                  href='https://www.linkedin.com/company/holdhand/'
+                  target='_blank'
+                >
                   <img src={linkedin} alt='linkedin' />
-                </div>
+                </a>
               </div>
             </div>
           </div>

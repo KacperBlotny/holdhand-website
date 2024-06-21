@@ -10,6 +10,8 @@ import clock from '../assets/svg/undraw/clock.svg'
 import resume from '../assets/svg/undraw/resume.svg'
 import world from '../assets/svg/undraw/world.svg'
 
+import DownloadButton from '../components/DownloadButton'
+
 function Employers() {
   useEffect(() => {
     document.title = 'Holdhand | Dla pracodawców'
@@ -160,9 +162,11 @@ function Employers() {
         </ul>
         <br />
         <p>
-          Wypełnij poniższy formularz, a my sporządzimy kompleksową wycenę,
-          którą prześlemy pod wskazany adres e-mail.
+          Wypełnij poniższy formularz i prześlij na nasz adres emial
+          <span className='font-bold'> office@holdhand.eu</span>, a my
+          sporządzimy kompleksową wycenę, którą prześlemy pod twój adres e-mail.
         </p>
+        <DownloadButton />
       </div>
     </div>
   )
