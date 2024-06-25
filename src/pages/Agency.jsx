@@ -111,7 +111,7 @@ function Agency() {
         <br />
 
         <p>
-          Wypełnij poniższy formularz i prześlij na nasz adres emial
+          Wypełnij poniższy formularz i prześlij na nasz adres e-mail
           <span className='font-bold'> office@holdhand.eu</span>, a my
           sporządzimy kompleksową wycenę, którą prześlemy pod twój adres e-mail.
         </p>
