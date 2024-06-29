@@ -118,6 +118,40 @@ function Employees() {
           </div>
         </div>
       </div>
+      <div className='text-main max-w-[750px] mx-auto pt-32'>
+        <p className='text-4xl font-medium'>
+          Zdefiniuj swoje idealne miejsce pracy:
+        </p>
+        <br />
+        <div className='flex flex-col gap-4'>
+          <p>
+            Zastanów się nad preferowanym zawodem oraz specyfiką stanowiska, na
+            którym chciałbyś pracować.
+          </p>
+          <p>
+            Korzystając z formularza kontaktowego na naszej stronie, wyślij nam
+            swoje aktualne CV wraz z opisem poszukiwanego stanowiska.
+          </p>
+          <p>
+            Gdy tylko zidentyfikujemy oferty pracy pasujące do Twoich kryteriów,
+            skontaktujemy się z Tobą drogą mailową, przedstawiając Ci
+            szczegółowe informacje.
+          </p>
+          <p>
+            Nasza usługa dostosowuje proces poszukiwania pracy do Twoich
+            potrzeb, zwiększając szanse na znalezienie idealnego zatrudnienia. Z
+            HoldHand każdy krok przybliża Cię do zawodowego sukcesu. Wyraź swoje
+            aspiracje, a my pomożemy Ci je zrealizować
+          </p>
+        </div>
+
+        <br />
+        <p>
+          Wypełnij poniższy formularz i prześlij na nasz adres e-mail
+          <span className='font-bold'> office@holdhand.eu</span>, a my
+          sporządzimy kompleksową wycenę, którą prześlemy pod twój adres e-mail.
+        </p>
+      </div>
     </div>
   )
 }

@@ -85,7 +85,7 @@ function ContactForm() {
               />
               <label
                 for='default-checkbox'
-                class='ms-2 text-xs font-medium text-gray-900 dark:text-gray-300 flex'
+                class='ms-2 text-xs font-medium text-white flex'
               >
                 Akceptuję zasady dotyczące przetwarzania moich danych osobowych
                 zgodnie z polityką prywatności oraz RODO.

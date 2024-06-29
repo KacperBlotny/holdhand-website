@@ -61,10 +61,10 @@ function Index() {
         </h1>
         <p className='text-main'>
           Dzięki relacjom z zagranicznymi rekruterami pozyskujemy pracowników z
-          różnych części świata- od specjalistów, aż po pracowników fizycznych.
-          Jako nasze główne obszary rekrutacyjne zdecydowanie wskazujemy na:
-          Nepal, Wietnam i Azerbejdżan. Współpracując w tych krajach z lokalnymi
-          rekruterami, firmami i agencjami zatrudnieniadopasowujemy się do
+          różnych części świata – od specjalistów, aż po pracowników fizycznych.
+          Jako nasze główne obszary rekrutacyjne zdecydowanie wskazujemy Nepal,
+          Wietnam i Azerbejdżan. Współpracując w tych krajach z lokalnymi
+          rekruterami, firmami i agencjami zatrudnienia, dopasowujemy się do
           potrzeb i wymagań naszych klientów.
         </p>
       </div>
@@ -77,7 +77,7 @@ function Index() {
               className='lg:w-[80px] w-[60px]'
             />
             <p className='text-white max-w-[800px] ml-8'>
-              W 2022 r. w Polsce wskaźnik bezrobocia wynosił 1.8%, a liczba
+              W 2022 r. w Polsce wskaźnik bezrobocia wynosił 1,8%, a liczba
               wolnych miejsc pracy osiągnęła 139,8 tys. Widzimy lukę między
               zasobami pracowniczymi a potrzebami rynku, co podkreśla
               konieczność otwarcia rynku pracy na zagranicznych pracowników.
@@ -90,10 +90,10 @@ function Index() {
               className='lg:w-[80px] w-[60px]'
             />
             <p className='text-white max-w-[800px] ml-8'>
-              Nasze działania mają zaspokoić potrzeby rynku pracy w Polsce i
-              oferować stabilne zatrudnienie osobom z zagranicy. Służy to
-              wsparciu rozwoju gospodarki krajowej i lokalnych polskich
-              przedsiębiorstw
+              Nasze działania mają na celu zaspokojenie potrzeb rynku pracy w
+              Polsce i oferowanie stabilnego zatrudnienia osobom z zagranicy.
+              Służy to wsparciu rozwoju gospodarki krajowej i lokalnych polskich
+              przedsiębiorstw.
             </p>
           </div>
           <div className='flex items-center justify-start lg:justify-center mx-4 lg:mx-24'>
