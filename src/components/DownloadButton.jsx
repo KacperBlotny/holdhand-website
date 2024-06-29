@@ -1,12 +1,12 @@
 // src/DownloadButton.js
 import React from 'react'
 
-import file from '../files/FORMULARZ_WYCENY_.docx'
+import file from '../files/FORMULARZ_WYCENY_.pdf'
 
 const DownloadButton = () => {
   const handleDownload = () => {
     const fileUrl = '../files/FORMULARZ_WYCENY_.docx' // URL or local path to the file
-    const fileName = 'FORMULARZ_WYCENY_.docx' // Name of the file to be downloaded
+    const fileName = 'FORMULARZ_WYCENY_.pdf' // Name of the file to be downloaded
 
     const link = document.createElement('a')
     link.href = fileUrl
@@ -23,15 +23,19 @@ const DownloadButton = () => {
         className='rounded-3xl flex justify-center py-4 px-8 border border-main text-sm font-medium text-main hover:text-mainHover transition-all duration-300 mt-8 w-full'
       >
         Pobierz formularz wyceny
-      </button>
-    </> */}
-    <a
-      href='https://we.tl/t-EYaS0J6S3Z'
-      target='_blank'
-      className='rounded-3xl flex justify-center py-4 px-8 border border-main text-sm font-medium text-main hover:text-mainHover transition-all duration-300 mt-8'
-    >
-      Pobierz formularz wyceny
-    </a>
+      </button> */}
+      <a
+        href='https://we.tl/t-EYaS0J6S3Z'
+        target='_blank'
+        className='rounded-3xl flex justify-center py-4 px-8 border border-main text-sm font-medium text-main hover:text-mainHover transition-all duration-300 mt-8'
+      >
+        Pobierz formularz wyceny
+      </a>
+      <a href={file} download='My_File.pdf'>
+        {' '}
+        Download Here{' '}
+      </a>
+    </>
   )
 }
 
