@@ -25,15 +25,13 @@ const DownloadButton = () => {
         Pobierz formularz wyceny
       </button> */}
       <a
-        href='https://we.tl/t-EYaS0J6S3Z'
+        // href='https://we.tl/t-EYaS0J6S3Z'
+        href={file}
+        download='FORMULARZ_WYCENY.pdf'
         target='_blank'
         className='rounded-3xl flex justify-center py-4 px-8 border border-main text-sm font-medium text-main hover:text-mainHover transition-all duration-300 mt-8'
       >
         Pobierz formularz wyceny
-      </a>
-      <a href={file} download='My_File.pdf'>
-        {' '}
-        Download Here{' '}
       </a>
     </>
   )
