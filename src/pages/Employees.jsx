@@ -1,4 +1,5 @@
 import { useEffect } from 'react'
+import useTranslationHook from '../hooks/useTranslationHook'
 import SubpageCard from '../components/shared/SubpageCard'
 
 import img from '../assets/img/orange-worker.png'
@@ -10,23 +11,24 @@ import highfive from '../assets/svg/undraw/highfive.svg'
 import questionmark from '../assets/svg/undraw/questionmark.svg'
 
 function Employees() {
+  const { t, changeLanguage } = useTranslationHook()
   useEffect(() => {
     document.title = 'Holdhand | Dla pracowników'
   }, [])
   return (
     <div className='py-32 px-4'>
-      <SubpageCard img={img} title='Dla pracowników' />
+      <SubpageCard img={img} title={t('navbar.dlaPracownikow')} />
       <p className='text-main  text-2xl lg:text-4xl text-center my-32'>
-        Umożliwiamy zgłaszanie zapotrzebowania na konkretne stanowiska pracy,
-        wspierając realizację Twoich zawodowych aspiracji i dopasowując oferty
-        do Twoich oczekiwań.
+        {t('dlaPracownikow.tekst')}
       </p>
       <div className='flex flex-col gap-16'>
         {/* Jak postępować */}
         <div className='text-main flex flex-col xl:pl-32'>
           <div className='flex items-center gap-4'>
             <img src={arrow} alt='' className='h-[80px] pr-8 mt-auto' />
-            <p className='font-medium text-3xl mt-auto py-6'>Jak postępować?</p>
+            <p className='font-medium text-3xl mt-auto py-6'>
+              {t('dlaPracownikow.arrow1.title')}
+            </p>
             <img
               src={right}
               alt='undraw right'
@@ -35,28 +37,11 @@ function Employees() {
           </div>
           <div className='xl:ml-32 pt-8 max-w-[750px]'>
             <ul className='list-disc flex flex-col gap-4 pl-8'>
-              <li>
-                Zdefiniuj Swoje Idealne Miejsce Pracy: Zastanów się nad
-                preferowanym zawodem oraz specyfiką stanowiska, na którym
-                chciałbyś pracować.
-              </li>
-              <li>
-                Prześlij Nam Swoje CV: Korzystając z formularza kontaktowego na
-                naszej stronie, wyślij nam swoje aktualne CV wraz z opisem
-                poszukiwanego stanowiska.
-              </li>
-              <li>
-                Oczekuj na Informacje Zwrotne: Gdy tylko zidentyfikujemy oferty
-                pracy pasujące do Twoich kryteriów, skontaktujemy się z Tobą
-                drogą mailową, przedstawiając Ci szczegółowe informacje.
-              </li>
+              <li>{t('dlaPracownikow.arrow1.point1')}</li>
+              <li>{t('dlaPracownikow.arrow1.point2')}</li>
+              <li>{t('dlaPracownikow.arrow1.point3')}</li>
             </ul>
-            <p className='pt-4'>
-              Nasza usługa dostosowuje proces poszukiwania pracy do Twoich
-              potrzeb, zwiększając szanse na znalezienie idealnego zatrudnienia.
-              Z HoldHand każdy krok przybliża Cię do zawodowego sukcesu. Wyraź
-              swoje aspiracje, a my pomożemy Ci je zrealizować.
-            </p>
+            <p className='pt-4'>{t('dlaPracownikow.arrow1.point4')}</p>
           </div>
         </div>
 
@@ -65,7 +50,7 @@ function Employees() {
           <div className='flex items-center gap-4'>
             <img src={arrow} alt='' className='h-[80px] pr-8 mt-auto' />
             <p className='font-medium text-3xl mt-auto py-6'>
-              Dlaczego HoldHand?
+              {t('dlaPracownikow.arrow2.title')}
             </p>
             <img
               src={highfive}
@@ -75,20 +60,9 @@ function Employees() {
           </div>
           <div className='xl:ml-32 pt-8 max-w-[750px]'>
             <ul className='list-disc flex flex-col gap-4 pl-8'>
-              <li>
-                Różnorodność Ofert: Znajdziesz u nas oferty pracy z wielu branż,
-                co zwiększa Twoje szanse na znalezienie idealnej pracy.
-              </li>
-              <li>
-                Prosty i Przejrzysty Proces Aplikacji: Nasza strona jest
-                zaprojektowana tak, aby ułatwić Ci aplikowanie i szybkie
-                znalezienie interesujących Cię ofert.
-              </li>
-              <li>
-                Wsparcie na Każdym Kroku: Jesteśmy tutaj, aby pomóc Ci w
-                procesie rekrutacji. Jeśli masz pytania lub potrzebujesz pomocy,
-                jesteśmy do Twojej dyspozycji.
-              </li>
+              <li>{t('dlaPracownikow.arrow2.point1')}</li>
+              <li>{t('dlaPracownikow.arrow2.point2')}</li>
+              <li>{t('dlaPracownikow.arrow2.point3')}</li>
             </ul>
           </div>
         </div>
@@ -99,7 +73,7 @@ function Employees() {
           <div className='flex items-center gap-4'>
             <img src={arrow} alt='' className='h-[80px] pr-8 mt-auto' />
             <p className='font-medium text-3xl mt-auto py-6'>
-              Odkryj nowe możliwości
+              {t('dlaPracownikow.arrow3.title')}
             </p>
             <img
               src={questionmark}
@@ -108,48 +82,27 @@ function Employees() {
             />
           </div>
           <div className='xl:ml-32 pt-8 max-w-[750px]'>
-            <p>
-              Z HoldHand łatwo znajdziesz ofertę pracy, która otworzy nowy
-              rozdział w Twoim życiu zawodowym, bez względu na branżę. Nasze
-              starannie wyselekcjonowane oferty zapewnią Ci najlepsze możliwości
-              rozwoju. Zacznij z nami już dziś, odkryj nasze możliwości i nie
-              pozwól, by Twoja kariera stała w miejscu.
-            </p>
+            <p>{t('dlaPracownikow.arrow3.point1')}</p>
           </div>
         </div>
       </div>
       <div className='text-main max-w-[750px] mx-auto pt-32'>
         <p className='text-4xl font-medium'>
-          Zdefiniuj swoje idealne miejsce pracy:
+          {t('dlaPracownikow.lastSect.title')}
         </p>
         <br />
         <div className='flex flex-col gap-4'>
-          <p>
-            Zastanów się nad preferowanym zawodem oraz specyfiką stanowiska, na
-            którym chciałbyś pracować.
-          </p>
-          <p>
-            Korzystając z formularza kontaktowego na naszej stronie, wyślij nam
-            swoje aktualne CV wraz z opisem poszukiwanego stanowiska.
-          </p>
-          <p>
-            Gdy tylko zidentyfikujemy oferty pracy pasujące do Twoich kryteriów,
-            skontaktujemy się z Tobą drogą mailową, przedstawiając Ci
-            szczegółowe informacje.
-          </p>
-          <p>
-            Nasza usługa dostosowuje proces poszukiwania pracy do Twoich
-            potrzeb, zwiększając szanse na znalezienie idealnego zatrudnienia. Z
-            HoldHand każdy krok przybliża Cię do zawodowego sukcesu. Wyraź swoje
-            aspiracje, a my pomożemy Ci je zrealizować
-          </p>
+          <p>{t('dlaPracownikow.lastSect.1')}</p>
+          <p>{t('dlaPracownikow.lastSect.2')}</p>
+          <p>{t('dlaPracownikow.lastSect.3')}</p>
+          <p>{t('dlaPracownikow.lastSect.4')}</p>
         </div>
 
         <br />
         <p>
-          Wypełnij poniższy formularz i prześlij na nasz adres e-mail
-          <span className='font-bold'> office@holdhand.eu</span>, a my
-          sporządzimy kompleksową wycenę, którą prześlemy pod twój adres e-mail.
+          {t('dlaPracownikow.lastSect.51')}
+          <span className='font-bold'> office@holdhand.eu</span>
+          {t('dlaPracownikow.lastSect.52')}
         </p>
       </div>
     </div>

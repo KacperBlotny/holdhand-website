@@ -1,7 +1,10 @@
 import React, { useRef, useState } from 'react'
 import emailjs from '@emailjs/browser'
 
+import useTranslationHook from '../../hooks/useTranslationHook'
+
 function ContactForm() {
+  const { t, changeLanguage } = useTranslationHook()
   const form = useRef()
   const [popupVisible, setPopupVisible] = useState(false)
 
@@ -31,12 +34,12 @@ function ContactForm() {
   }
 
   return (
-    <div class='flex flex-col items-end pt-16 xl:pt-0 xl:justify-start px-4 justify-start'>
+    <div className='flex flex-col items-end pt-16 xl:pt-0 xl:justify-start px-4 justify-start'>
       <div className='text-white'>
         <p className='text-white font-bold text-4xl pt-24 pb-12'>
-          Skontaktuj się z nami!
+          {t('footer.contactForm.sktNami')}
         </p>
-        <div class='max-w-4xl w-full rounded-lg'>
+        <div className='max-w-4xl w-full rounded-lg'>
           <form
             id='contact-form'
             ref={form}
@@ -48,7 +51,7 @@ function ContactForm() {
                 id='user_name'
                 name='user_name'
                 type='text'
-                placeholder='Imię i nazwisko / nazwa firmy'
+                placeholder={t('footer.contactForm.form1')}
                 required
                 className='mt-1 block w-full py-4 shadow-sm focus:outline-none focus:ring-blue focus:border-blue sm:text-sm border-b-2 bg-transparent'
               />
@@ -58,7 +61,7 @@ function ContactForm() {
                 id='user_email'
                 name='user_email'
                 type='email'
-                placeholder='Email'
+                placeholder={t('footer.contactForm.form2')}
                 required
                 className='mt-1 block w-full py-4 shadow-sm focus:outline-none focus:ring-blue focus:border-blue sm:text-sm bg-transparent border-b-2'
               />
@@ -68,27 +71,26 @@ function ContactForm() {
               <textarea
                 id='message'
                 name='message'
-                placeholder='Twoja wiadomość...'
+                placeholder={t('footer.contactForm.form3')}
                 rows='4'
                 required
                 className='mt-1 block w-full py-4  shadow-sm focus:outline-none focus:ring-blue focus:border-blue sm:text-sm h-[72px] bg-transparent border-b-2'
               ></textarea>
             </div>
 
-            <div class='flex items-center mb-4'>
+            <div className='flex items-center mb-4'>
               <input
                 id='default-checkbox'
                 type='checkbox'
                 required
                 value=''
-                class='w-4 h-4 text-blue bg-transparent border-gray-300 rounded focus:ring-0'
+                className='w-4 h-4 text-blue bg-transparent border-gray-300 rounded focus:ring-0'
               />
               <label
-                for='default-checkbox'
-                class='ms-2 text-xs font-medium text-white flex'
+                htmlFor='default-checkbox'
+                className='ms-2 text-xs font-medium text-white flex'
               >
-                Akceptuję zasady dotyczące przetwarzania moich danych osobowych
-                zgodnie z polityką prywatności oraz RODO.
+                {t('footer.contactForm.rodo')}
               </label>
             </div>
             <div className='py-8'>
@@ -96,7 +98,7 @@ function ContactForm() {
                 type='submit'
                 className='rounded-3xl flex justify-center py-4 px-8 border border-mainHover text-sm font-medium text-mainHover hover:text-white transition-all duration-300'
               >
-                Wyślij wiadomość
+                {t('footer.contactForm.button')}
               </button>
             </div>
           </form>
@@ -104,10 +106,7 @@ function ContactForm() {
           {popupVisible && (
             <div className='fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 text-black'>
               <div className='bg-white p-4 rounded shadow-md text-black'>
-                <p>
-                  Wiadomość wysłana pomyślnie! Dziękujemy za skorzystanie z
-                  formularza!
-                </p>
+                <p>{t('footer.contactForm.succesMessage')}</p>
               </div>
             </div>
           )}

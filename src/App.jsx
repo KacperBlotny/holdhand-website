@@ -1,4 +1,6 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
+
 import ScrollToTop from './components/oldx/ScrollToTop'
 
 import Navbar from './components/shared/Navbar'
@@ -12,6 +14,11 @@ import Agency from './pages/Agency'
 import Policy from './pages/Policy'
 
 function App() {
+  const { t, i18n } = useTranslation()
+
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng)
+  }
   return (
     <div className='bg-colorBg'>
       <Router>

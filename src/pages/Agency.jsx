@@ -1,4 +1,5 @@
 import { useEffect } from 'react'
+import useTranslationHook from '../hooks/useTranslationHook'
 
 import SubpageCard from '../components/shared/SubpageCard'
 
@@ -13,19 +14,18 @@ import deal from '../assets/svg/undraw/deal.svg'
 import DownloadButton from '../components/DownloadButton'
 
 function Agency() {
+  const { t, changeLanguage } = useTranslationHook()
   useEffect(() => {
     document.title = 'Holdhand | Dla agencji pracy'
   }, [])
   return (
     <div className='py-32 px-4'>
-      <SubpageCard img={img} title='Dla agencji pracy' />
+      <SubpageCard img={img} title={t('navbar.dlaAgencji')} />
       <p className='text-main  text-2xl lg:text-4xl text-center my-32'>
-        Współpracujemy z wieloma agencjami pracy oraz lokalnymi rekruterami z
-        wielu państw świata, oferując kompleksowe rozwiązania w zakresie
-        rekrutacji i outsourcingu pracowniczego.
+        {t('dlaAgencji.title1')}
         <br />
         <br />
-        Jesteśmy otwarci na nowe kontakty i współpracę.
+        {t('dlaAgencji.title2')}
       </p>
       <div className='flex flex-col gap-16'>
         {/* Pozyskiwanie pracowników */}
@@ -33,7 +33,7 @@ function Agency() {
           <div className='flex items-center gap-4'>
             <img src={arrow} alt='' className='h-[80px] pr-8 mt-auto' />
             <p className='font-medium text-3xl mt-auto py-6'>
-              Pozyskiwanie pracowników w formie jednorazowej
+              {t('dlaAgencji.arrow1.title')}
             </p>
             <img
               src={deal}
@@ -42,22 +42,9 @@ function Agency() {
             />
           </div>
           <div className='xl:ml-32 pt-8 max-w-[750px]'>
-            <p className='pt-4'>
-              Prowadzimy kompleksowy proces rekrutacyjny, w tym dobór
-              kandydatów, z możliwością udziału klienta na każdym etapie. Naszym
-              priorytetem jest spełnienie wymagań klienta, aby dostarczyć
-              odpowiednich pracowników. Współpracujemy głównie z zagranicznymi
-              agencjami i rekruterami, zajmując się również legalizacją
-              zatrudnienia wybranych kandydatów. Po zakończeniu procesu
-              wystawiamy fakturę na kwotę uzgodnioną podczas wcześniejszych
-              negocjacji. Oferujemy rekrutację zarówno pracowników
-              niewykwalifikowanych, jak i wykwalifikowanych.
-            </p>
+            <p className='pt-4'>{t('dlaAgencji.arrow1.text1')}</p>
             <br />
-            <p>
-              Jesteśmy gotowi na jednorazowe zamówienia oraz długoterminową
-              współpracę z naszymi klientami.
-            </p>
+            <p>{t('dlaAgencji.arrow1.text2')}</p>
           </div>
         </div>
 
@@ -66,7 +53,7 @@ function Agency() {
           <div className='flex items-center gap-4'>
             <img src={arrow} alt='' className='h-[80px] pr-8 mt-auto' />
             <p className='font-medium text-3xl mt-auto py-6'>
-              Outsourcing pracowniczy
+              {t('dlaAgencji.arrow2.title')}
             </p>
             <img
               src={solution}
@@ -84,8 +71,7 @@ function Agency() {
           <div className='flex items-center gap-4'>
             <img src={arrow} alt='' className='h-[80px] pr-8 mt-auto' />
             <p className='font-medium text-3xl mt-auto py-6'>
-              Firma, którą reprezentujesz zajmuje się rektruacją/pośrednictwem
-              zatrudnienia?
+              {t('dlaAgencji.arrow3.title')}
             </p>
             <img
               src={update}
@@ -95,25 +81,22 @@ function Agency() {
           </div>
           <div className='xl:ml-32 pt-8 max-w-[750px]'>
             <p>
-              Czekamy na kontakt! Przedstawcie Państwo nam swoją ofertę,
-              korzystając z formularza kontaktowego lub wysyłając nam na maila,
-              a my z pewnością zapoznamy się i odezwiemy.
+              {t('dlaAgencji.arrow3.text1')}
               <br />
               <br />
-              Jesteśmy zawsze otwarci na przedstawiane przez Państwa usługi i
-              propozycje dot. współpracy.
+              {t('dlaAgencji.arrow3.text2')}
             </p>
           </div>
         </div>
       </div>
       <div className='text-main max-w-[750px] mx-auto pt-32'>
-        <p className='text-4xl font-medium'>Jesteś zainteresowan-y/a?</p>
+        <p className='text-4xl font-medium'> {t('downloadAgency.title')}</p>
         <br />
 
         <p>
-          Wypełnij poniższy formularz i prześlij na nasz adres e-mail
-          <span className='font-bold'> office@holdhand.eu</span>, a my
-          sporządzimy kompleksową wycenę, którą prześlemy pod twój adres e-mail.
+          {t('downloadAgency.text1')}
+          <span className='font-bold'> office@holdhand.eu</span>
+          {t('downloadAgency.text2')}
         </p>
         <DownloadButton />
       </div>

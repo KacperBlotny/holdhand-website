@@ -1,10 +1,12 @@
 import React, { useRef, useState } from 'react'
-import data from './data'
-
+import { useTranslation } from 'react-i18next'
 import arrow from '../../assets/svg/arrows/arrow_right_blue.svg'
 
-// Accordionitem component
+import useTranslationHook from '../../hooks/useTranslationHook'
+
+// AccordionItem component
 const AccordionItem = ({ question, answer, isOpen, onClick }) => {
+  const { t, changeLanguage } = useTranslationHook()
   const contentHeight = useRef()
 
   // Function to render HTML content safely
@@ -43,11 +45,15 @@ const AccordionItem = ({ question, answer, isOpen, onClick }) => {
 }
 
 const Accordion = () => {
+  const { t } = useTranslation()
   const [activeIndex, setActiveIndex] = useState(null)
 
   const handleItemClick = (index) => {
     setActiveIndex((prevIndex) => (prevIndex === index ? null : index))
   }
+
+  // Fetch the accordion data from the translation files
+  const data = t('accordion.items', { returnObjects: true })
 
   return (
     <div className='container mx-auto flex flex-col gap-4 '>

@@ -3,7 +3,14 @@ import logo from '../../assets/logo/Logo-01.png'
 import { Link } from 'react-router-dom'
 import { useLocation } from 'react-router-dom'
 
+import useTranslationHook from '../../hooks/useTranslationHook'
+
+import plFlag from '../../assets/flag/polska.webp'
+import ruFlag from '../../assets/flag/russian.jpg'
+
 const Navbar = () => {
+  const { t, changeLanguage } = useTranslationHook()
+
   const location = useLocation()
 
   const showElement = location.pathname !== '/'
@@ -21,27 +28,28 @@ const Navbar = () => {
         <Link to='/'>
           <img src={logo} alt='Company Logo' className='h-9' />
         </Link>
+
         <ul className='flex gap-8'>
           {showElement && (
             <Link to='/'>
               <li className='text-main hover:text-mainHover transition-colors duration-300 cursor-pointer'>
-                Strona główna
+                {t('navbar.strGlowna')}
               </li>
             </Link>
           )}
           <Link to='/for-employees'>
             <li className='text-main hover:text-mainHover transition-colors duration-300 cursor-pointer'>
-              Dla pracowników
+              {t('navbar.dlaPracownikow')}
             </li>
           </Link>
           <Link to='/for-employers'>
             <li className='text-main hover:text-mainHover transition-colors duration-300 cursor-pointer'>
-              Dla pracodawców
+              {t('navbar.dlaPracodawcow')}
             </li>
           </Link>
           <Link to='/for-agency'>
             <li className='text-main hover:text-mainHover transition-colors duration-300 cursor-pointer'>
-              Dla agencji pracy
+              {t('navbar.dlaAgencji')}
             </li>
           </Link>
 
@@ -50,14 +58,22 @@ const Navbar = () => {
               className='text-main hover:text-mainHover transition-colors duration-300 cursor-pointer'
               onClick={() => scrollToSection('faq')}
             >
-              FAQ
+              {t('navbar.faq')}
             </li>
           )}
           <li
             className='text-main hover:text-mainHover transition-colors duration-300 cursor-pointer'
             onClick={() => scrollToSection('contact')}
           >
-            Kontakt
+            {t('navbar.kontakt')}
+          </li>
+          <li>
+            <button onClick={() => changeLanguage('pl')} className='pr-8'>
+              <img src={plFlag} alt='polish flag ' className='h-4' />
+            </button>
+            <button onClick={() => changeLanguage('ru')}>
+              <img src={ruFlag} alt='russian flag' className='h-4' />
+            </button>
           </li>
         </ul>
       </div>
