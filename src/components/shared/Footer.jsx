@@ -7,7 +7,10 @@ import ContactForm from './ContactForm'
 import discord from '../../assets/svg/discord.svg'
 import linkedin from '../../assets/svg/linkedin.svg'
 
+import useTranslationHook from '../../hooks/useTranslationHook'
+
 function Footer() {
+  const { t, changeLanguage } = useTranslationHook()
   return (
     <div className='bg-footer-gradient ' id='contact'>
       <div className=''>
@@ -22,7 +25,7 @@ function Footer() {
               <div className='flex gap-16'>
                 <div>
                   <p className='font-bold'>HOLDHAND sp. z o.o.</p>
-                  <p className='text-mainHover'>Okopowa 8, 20-022 Lublin</p>
+                  <p className='text-mainHover'>{t('footer.address')}</p>
                 </div>
                 <div>
                   <p>NIP: 7123467590</p>
@@ -32,7 +35,7 @@ function Footer() {
               <div className='flex gap-16'>
                 <div>
                   <p className='font-bold'>HOLDHAND APT sp. z o.o.</p>
-                  <p className='text-mainHover'>Okopowa 8, 20-022 Lublin</p>
+                  <p className='text-mainHover'>{t('footer.address')}</p>
                 </div>
                 <div>
                   <p>NIP: 7123476784</p>
@@ -43,9 +46,7 @@ function Footer() {
           </div>
           <div className='flex flex-col-reverse sm:flex-row justify-between'>
             <div className='flex flex-col lg:flex-row gap-8 py-8'>
-              <p className='text-mainHover'>
-                Copyright © 2024 Holdhand sp. z o.o.
-              </p>
+              <p className='text-mainHover'>{t('footer.copy')}</p>
               <Link to='/privacy-policy'>
                 <p className='cursor-pointer text-mainHover hover:text-white duration-300 transition-color'>
                   Polityka prywatności

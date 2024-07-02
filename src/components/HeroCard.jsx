@@ -3,7 +3,7 @@ import arrow from '../assets/svg/arrows/arrow_up_right.svg'
 
 function HeroCard({ img, title, desc }) {
   return (
-    <div className='max-w-[440px] h-[640px] group cursor-pointer'>
+    <div className='max-w-[440px] h-[640px] mx-auto group cursor-pointer'>
       <div className='relative overflow-hidden'>
         <img src={img} className='w-full h-full object-cover' alt='Image' />
 

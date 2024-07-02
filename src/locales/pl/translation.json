@@ -72,7 +72,10 @@
       "rodo": "Akceptuję zasady dotyczące przetwarzania moich danych osobowych zgodnie z polityką prywatności oraz RODO.",
       "button": "Wyślij wiadomość",
       "succesMessage": "Wiadomość wysłana pomyślnie! Dziękujemy za skorzystanie z formularza!"
-    }
+    },
+    "address": "Okopowa 8, 20-022 Lublin",
+    "copy": "Copyright © 2024 Holdhand sp. z o.o.",
+    "policy": "Polityka prywatności"
   },
   "dlaPracownikow": {
     "tekst": "Umożliwiamy zgłaszanie zapotrzebowania na konkretne stanowiska pracy, wspierając realizację Twoich zawodowych aspiracji i dopasowując oferty do Twoich oczekiwań.",

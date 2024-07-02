@@ -5,7 +5,10 @@ import { useLocation } from 'react-router-dom'
 
 import logo from '../../assets/logo/Logo-01.png'
 
+import useTranslationHook from '../../hooks/useTranslationHook'
+
 function NavbarResp() {
+  const { t, changeLanguage } = useTranslationHook()
   const [isActive, setIsActive] = useState(false)
   const sidebarRef = useRef(null)
   const openSidebarButtonRef = useRef(null)
@@ -61,23 +64,23 @@ function NavbarResp() {
             {showElement && (
               <Link to='/'>
                 <li className='text-main hover:text-mainHover transition-colors duration-300 cursor-pointer'>
-                  Strona główna
+                  {t('navbar.strGlowna')}
                 </li>
               </Link>
             )}
             <Link to='/for-employees'>
               <li className='text-main hover:text-mainHover transition-colors duration-300 cursor-pointer'>
-                Dla pracowników
+                {t('navbar.dlaPracownikow')}
               </li>
             </Link>
             <Link to='/for-employers'>
               <li className='text-main hover:text-mainHover transition-colors duration-300 cursor-pointer'>
-                Dla pracodawców
+                {t('navbar.dlaPracodawcow')}
               </li>
             </Link>
             <Link to='/for-agency'>
               <li className='text-main hover:text-mainHover transition-colors duration-300 cursor-pointer'>
-                Dla agencji pracy
+                {t('navbar.dlaAgencji')}
               </li>
             </Link>
 
@@ -86,14 +89,14 @@ function NavbarResp() {
                 className='text-main hover:text-mainHover transition-colors duration-300 cursor-pointer'
                 onClick={() => scrollToSection('faq')}
               >
-                FAQ
+                {t('navbar.faq')}
               </li>
             )}
             <li
               className='text-main hover:text-mainHover transition-colors duration-300 cursor-pointer'
               onClick={() => scrollToSection('contact')}
             >
-              Kontakt
+              {t('navbar.kontakt')}
             </li>
           </ul>
           {/* <ul className='mt-4'>

@@ -1,15 +1,21 @@
-import React from 'react'
+import { useState } from 'react'
 import logo from '../../assets/logo/Logo-01.png'
 import { Link } from 'react-router-dom'
 import { useLocation } from 'react-router-dom'
 
 import useTranslationHook from '../../hooks/useTranslationHook'
 
+import translateIcon from '../../assets/svg/arrows/language.svg'
+
 import plFlag from '../../assets/flag/polska.webp'
 import ruFlag from '../../assets/flag/russian.jpg'
+import uaFlag from '../../assets/flag/ukraine.jpg'
+import enFlag from '../../assets/flag/uk.svg.png'
 
 const Navbar = () => {
   const { t, changeLanguage } = useTranslationHook()
+
+  const [dropdownOpen, setDropdownOpen] = useState(false)
 
   const location = useLocation()
 
@@ -67,13 +73,46 @@ const Navbar = () => {
           >
             {t('navbar.kontakt')}
           </li>
-          <li>
+          {/* <li>
             <button onClick={() => changeLanguage('pl')} className='pr-8'>
               <img src={plFlag} alt='polish flag ' className='h-4' />
             </button>
             <button onClick={() => changeLanguage('ru')}>
               <img src={ruFlag} alt='russian flag' className='h-4' />
             </button>
+          </li> */}
+          <li className='relative'>
+            <button onClick={() => setDropdownOpen(!dropdownOpen)} className=''>
+              <img src={translateIcon} alt='choose language' />
+            </button>
+            {dropdownOpen && (
+              <ul className='absolute right-0 mt-2 w-36 bg-white border border-gray-200 rounded-lg shadow-lg grid grid-cols-2 p-2'>
+                <li
+                  className='px-4 py-2 hover:bg-gray-100 cursor-pointer mx-auto'
+                  onClick={() => changeLanguage('pl')}
+                >
+                  <img src={plFlag} alt='polish flag' className='mx-auto' />
+                </li>
+                <li
+                  className='px-4 py-2 hover:bg-gray-100 cursor-pointer mx-auto'
+                  onClick={() => changeLanguage('ru')}
+                >
+                  <img src={ruFlag} alt='russian flag' className='mx-auto' />
+                </li>
+                <li
+                  className='px-4 py-2 hover:bg-gray-100 cursor-pointer mx-auto'
+                  onClick={() => changeLanguage('ua')}
+                >
+                  <img src={uaFlag} alt='ukrainian flag' className='mx-auto' />
+                </li>
+                <li
+                  className='px-4 py-2 hover:bg-gray-100 cursor-pointer mx-auto'
+                  onClick={() => changeLanguage('en')}
+                >
+                  <img src={enFlag} alt='uk flag' className='mx-auto' />
+                </li>
+              </ul>
+            )}
           </li>
         </ul>
       </div>
