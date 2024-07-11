@@ -26,11 +26,11 @@
   "accordion": {
     "items": [
       {
-        "question": "Co to jest outsourcing pracowniczy?",
+        "question": "Co to jest outsourcing procesów i funkcji?",
         "answer": "Jest to forma współpracy, w której przejmujemy na siebie daną, wydzieloną część zadań, funkcji bądź procesów wykonywanych przez państwa firmę i realizujemy je za pomocą naszych pracowników. Nasi pracownicy pełnią określone w umowie funkcje i działania w państwa firmie przez ustalony w umowie okres czasu. Warto zaznaczyć, że w tej formie współpracy nie pozostajecie w żadnym stosunku prawnym z naszym pracownikiem, tzn. nie możecie zwolnić pracownika, tylko poprosić nas o wymianę."
       },
       {
-        "question": "Co oznacza outsourcing pracowniczy w praktyce?",
+        "question": "Co oznacza outsourcing procesów i funkcji w praktyce?",
         "answer": "W praktyce przejmujemy na siebie całą odpowiedzialność za kadry (selekcja kandydatów, rozmowy kwalifikacyjne, przeprowadzenie badań, szkoleń i zatrudnienie), płace (składki, fundusze, ubezpieczenia i wypłaty na rzecz pracownika), zarządzanie pracownikami oraz realizację zadań powierzonych przez państwa naszej firmie (wprowadzenie pracownika do miejsca pracy, przeszkolenie i aklimatyzacja). Państwo jedynie dostajecie pod koniec miesiąca fakturę do uregulowania."
       },
       {
@@ -107,10 +107,10 @@
     }
   },
   "dlaPracodawcow": {
-    "title": "Oferujemy kompleksowe rozwiązania zatrudnienia: outsourcing pracowniczy, bodyleasing, rekrutację na zlecenie i pracę tymczasową, dostosowane do indywidualnych potrzeb klientów.",
+    "title": "Oferujemy kompleksowe rozwiązania zatrudnienia: outsourcing procesów i funkcji, bodyleasing, rekrutację na zlecenie i pracę tymczasową, dostosowane do indywidualnych potrzeb klientów.",
     "arrow1": {
-      "title": "Outsourcing pracowniczy",
-      "text": "Outsourcing pracowniczy jest usługą w ramach której firma (Outsourcer) przejmuję na siebie część przedsiębiorstwa jej klienta (Insourcer) i za pomocą swojej kadry wykonuje powierzone jej zadania. W tym modelu klient nie nawiązuje żadnego stosunku z podwykonawcą usługodawcy, jedynie przekazuje listę zadań oraz w jaki sposób mają być wykonywane. Outsourcer, zarządza swoimi pracownikami, wypłaca im wynagrodzenie i odprowadza odpowiednie składki. Model ten jest rekomendowany firmom które mają zapotrzebowanie kadrowe na długotrwałe projekty jak np. obsługa linii montażowej."
+      "title": "Outsourcing procesów i funkcji",
+      "text": "Outsourcing procesów i funkcji jest usługą w ramach której firma (Outsourcer) przejmuję na siebie część przedsiębiorstwa jej klienta (Insourcer) i za pomocą swojej kadry wykonuje powierzone jej zadania. W tym modelu klient nie nawiązuje żadnego stosunku z podwykonawcą usługodawcy, jedynie przekazuje listę zadań oraz w jaki sposób mają być wykonywane. Outsourcer, zarządza swoimi pracownikami, wypłaca im wynagrodzenie i odprowadza odpowiednie składki. Model ten jest rekomendowany firmom które mają zapotrzebowanie kadrowe na długotrwałe projekty jak np. obsługa linii montażowej."
     },
     "arrow2": {
       "title": "Bodyleasing",
@@ -135,7 +135,7 @@
       "text2": "Jesteśmy gotowi na jednorazowe zamówienia oraz długoterminową współpracę z naszymi klientami."
     },
     "arrow2": {
-      "title": "Outsourcing pracowniczy"
+      "title": "Outsourcing procesów i funkcji"
     },
     "arrow3": {
       "title": "Firma, którą reprezentujesz zajmuje się rektruacją/pośrednictwem zatrudnienia?",
