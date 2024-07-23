@@ -1,0 +1,157 @@
+{
+  "navbar": {
+    "dlaPracownikow": "For Employees",
+    "dlaPracodawcow": "For Employers",
+    "dlaAgencji": "For Employment Agencies",
+    "faq": "FAQ",
+    "kontakt": "Contact",
+    "strGlowna": "Home"
+  },
+  "hero": {
+    "dlaPracownikow": "For Employees",
+    "dlaPracownikowDesc": "Our goal is to facilitate your access to a wide range of job offers that match your skills and career expectations.",
+    "dlaPracodawcow": "For Employers",
+    "dlaPracodawcowDesc": "Grow your team with the best talents on the market. Discover our comprehensive recruitment solutions tailored to the unique needs of your company.",
+    "dlaAgencji": "For Employment Agencies",
+    "dlaAgencjiDesc": "Increase recruitment effectiveness with our offer. We specialize in providing solutions that find the ideal candidates for your clients.",
+    "overMap": "We facilitate recruitment and build trusted relationships by combining professionalism with passion, focusing primarily on the development of employees and our business partners.",
+    "trzyStrzalki": {
+      "tytul": "We Recruit from All Over the World",
+      "tekst": "Thanks to relationships with foreign recruiters, we acquire employees from various parts of the world – from specialists to manual workers. Our main recruitment areas are Nepal, Vietnam, and Azerbaijan. By collaborating with local recruiters, companies, and employment agencies in these countries, we adapt to the needs and requirements of our clients.",
+      "jeden": "In 2022, the unemployment rate in Poland was 1.8%, and the number of job vacancies reached 139.8 thousand. We see a gap between labor resources and market needs, highlighting the need to open the labor market to foreign workers.",
+      "dwa": "Our actions aim to meet the labor market needs in Poland and offer stable employment to foreigners. This supports the development of the national economy and local Polish businesses.",
+      "trzy": "We strive for responsible matching of employees to build a strong, diverse economy. Our main goal is to fill the labor market gap and build intercultural bridges."
+    }
+  },
+  "accordion": {
+    "items": [
+      {
+        "question": "What is process and function outsourcing?",
+        "answer": "It is a form of cooperation in which we take over a specific, separated part of tasks, functions, or processes performed by your company and carry them out using our employees. Our employees perform the functions and activities specified in the contract in your company for the period specified in the agreement. It is worth noting that in this form of cooperation, you do not have any legal relationship with our employee, meaning you cannot dismiss the employee but can ask us for a replacement."
+      },
+      {
+        "question": "What does process and function outsourcing mean in practice?",
+        "answer": "In practice, we take full responsibility for HR (candidate selection, interviews, conducting examinations, training, and employment), payroll (contributions, funds, insurance, and payments to the employee), employee management, and the tasks entrusted to our company (introducing the employee to the workplace, training, and acclimatization). You only receive an invoice at the end of the month."
+      },
+      {
+        "question": "How long does it take to recruit and place an employee?",
+        "answer": "If we do not have an employee suitable for the specified position in our resources, we start the recruitment process to find a suitable candidate. This process can take, depending on the employee's qualifications, from 2 weeks (unqualified person) to a month for a specific specialist. Procedures such as obtaining information from the local labor market office, necessary for employing a foreign worker, and obtaining a work permit, which is required for a work visa, usually take about 2 months. The waiting time for a visa can vary and depends on many factors, such as geopolitical situation, employee qualifications, or the number of non-candidates applying for a visa at the same consulate.<br /><br /> It is also worth mentioning that Polish embassies often use a term lottery system, which can add uncertainty to the date when the candidate can submit their visa documents. Therefore, we periodically update information on the time needed to obtain terms at specific embassies in each country. You can find this information below on our website (or, if you are subscribed to our newsletter, you will receive it by email first).<br /><br /> 1. Philippines - up to 2 months to obtain a visa (accreditation takes place within 2 weeks) <br /><br />2. Vietnam - from 3 to 7 months <br /><br />3. Uzbekistan - waiting period 3-7 months. <br /><br />4. Kyrgyzstan - waiting period up to 2-2.5 months <br /><br />5. Turkey waiting period 3-5 months <br /><br />6. Kenya - waiting period 3-7 months <br /><br />7. India and Nepal waiting period 3-8 months <br /><br />8. Belarus and Georgia waiting period approx. 2-3 months"
+      },
+      {
+        "question": "What are the costs of employment and recruitment?",
+        "answer": "Depending on the order, the number of people and their qualifications, the total cost is always discussed individually with the client. We always provide preliminary costs after receiving the client's order guidelines in the preliminary and non-binding order form sent by email or filled out on the holdhand.work website."
+      },
+      {
+        "question": "If I provide accommodation for employees, is it deducted from the final amount in the settlements?",
+        "answer": "Yes, this is taken into account when cooperating with us. You issue us an invoice every month, or during negotiations, we include this fact in our calculations, which affects the final price and is directly reflected in the invoice issued by us. We are also open to other proposals from your side."
+      },
+      {
+        "question": "How are settlements made?",
+        "answer": "At the end of the month, based on the calculation of the number of hours worked by the employees, we issue you an invoice for the services provided by our employees.<br /> <br />The hourly rate established through negotiations is calculated based on the number of hours worked by all employees performing work in your company, plus VAT."
+      },
+      {
+        "question": "From which country in our offer can you get an employee to work the fastest?",
+        "answer": "The fastest way to hire an employee is through the Statement on the entrustment of work to a foreigner. Generally speaking, it applies to citizens of 5 countries: Armenia, Belarus, Georgia, Moldova, and Ukraine. (Although after the invasion by Russia, Ukraine received a special type of procedure called 'Notification of entrustment of work to a Ukrainian citizen', which further speeds up the possibility of hiring a foreign worker). The statement is usually issued within 7 days of submission.<br /><br /> After obtaining the statement, the only thing left is to issue a visa for the candidate, which takes about a month in these countries. The advantage of this option is the lack of need to obtain information from the local labor market office and no need to obtain a work permit.<br /><br />  This option has its limitations:<br /> <br /> - If you care about long-term cooperation, i.e., over 2 years, the person employed based on the statement can only work for exactly 2 years. In such a case, we extend the employee's stay.<br /> - If you care about hiring a person for seasonal work, this is not possible, as a permit is needed for such work.<br /> - At the moment, from the above-mentioned countries, we have in our offer: Belarus, Georgia, and Moldova. Over time, however, we will supplement our offer with other countries."
+      },
+      {
+        "question": "If it turns out that the employee is not fulfilling their obligations, is there a way out of this situation?",
+        "answer": "We provide the possibility of replacing the employee in cases where they are not fulfilling the obligations resulting from the contract or show gross negligence, carelessness, or other omissions that directly affect the functioning of your company. This applies only to the process and function outsourcing and body leasing services."
+      },
+      {
+        "question": "Is there an option for direct employment of the employee?",
+        "answer": "In our offer, apart from outsourcing, temporary work, and body leasing, we also have a recruitment option that we conduct based on the guidelines received from you in the order form. It is directly based on finding a candidate, conducting interviews, issuing the necessary documents, and bringing the selected candidate directly to your company. <br /><br /> The amount for such recruitment is determined individually, assuming that: A qualified candidate - through negotiations, depending on the candidate's specialization and education. An unqualified candidate - approx. 900 PLN + recruitment costs, document issuance, and transportation to Poland. <br /><br /> Settlement for the service takes place after bringing the employee to your company (e.g., after a one-month probationary period). <br /><br /> If you are interested in being present during interviews or any other recruitment process, we are open to this possibility."
+      }
+    ]
+  },
+  "footer": {
+    "contactForm": {
+      "sktNami": "Contact us!",
+      "form1": "Name / Company name",
+      "form2": "Email",
+      "form3": "Your message...",
+      "rodo": "I accept the terms of processing my personal data in accordance with the privacy policy and GDPR.",
+      "button": "Send message",
+      "succesMessage": "Message sent successfully! Thank you for using the form!"
+    }
+  },
+  "dlaPracownikow": {
+    "tekst": "We enable you to report demand for specific job positions, supporting the realization of your professional aspirations and matching offers to your expectations.",
+    "arrow1": {
+      "title": "How to proceed?",
+      "point1": "Define Your Ideal Workplace: Think about your preferred profession and the specifics of the position you would like to work in.",
+      "point2": "Send Us Your CV: Using the contact form on our website, send us your current CV along with a description of the sought position.",
+      "point3": "Wait for Feedback: As soon as we identify job offers matching your criteria, we will contact you via email, presenting detailed information.",
+      "point4": "Our service adapts the job search process to your needs, increasing your chances of finding the ideal employment. With HoldHand, every step brings you closer to professional success. Express your aspirations, and we will help you realize them."
+    },
+    "arrow2": {
+      "title": "Why HoldHand?",
+      "point1": "Diversity of Offers: You will find job offers from many industries with us, increasing your chances of finding the ideal job.",
+      "point2": "Simple and Transparent Application Process: Our website is designed to facilitate your application and quickly find the offers that interest you.",
+      "point3": "Support at Every Step: We are here to help you in the recruitment process. If you have questions or need help, we are at your disposal."
+    },
+    "arrow3": {
+      "title": "Discover new opportunities",
+      "point1": "With HoldHand, you will easily find a job offer that will open a new chapter in your professional life, regardless of the industry. Our carefully selected offers will provide you with the best development opportunities. Start with us today, discover our opportunities, and don't let your career stand still."
+    },
+    "lastSect": {
+      "title": "Define your ideal workplace:",
+      "1": "Think about your preferred profession and the specifics of the position you would like to work in.",
+      "2": "Using the contact form on our website, send us your current CV along with a description of the sought position.",
+      "3": "As soon as we identify job offers matching your criteria, we will contact you via email, presenting detailed information.",
+      "4": "Our service adapts the job search process to your needs, increasing your chances of finding the ideal employment. With HoldHand, every step brings you closer to professional success. Express your aspirations, and we will help you realize them",
+      "51": "Fill in the form below and send it to our email address",
+      "52": ", and we will prepare a comprehensive quote, which we will send to your email address."
+    }
+  },
+  "dlaPracodawcow": {
+    "title": "We offer comprehensive employment solutions: process and function outsourcing, body leasing, one-time recruitment, and temporary work, tailored to the individual needs of clients.",
+    "arrow1": {
+      "title": "process and function outsourcing",
+      "text": "process and function outsourcing is a service in which the company (Outsourcer) takes over part of the client company (Insourcer) and performs the entrusted tasks using its staff. In this model, the client does not establish any relationship with the service provider's subcontractor, only provides a list of tasks and how they should be performed. The Outsourcer manages its employees, pays them, and makes appropriate contributions. This model is recommended for companies that need staffing for long-term projects, such as assembly line service."
+    },
+    "arrow2": {
+      "title": "Body Leasing",
+      "text": "Body leasing is a service in which HoldHand delegates a group of its employees to the client to perform a specific one-time task. Similar to outsourcing, the client does not establish any direct relationship with the contractor's employees. HoldHand manages its employees, pays them, and makes appropriate contributions. This model is particularly recommended for companies that need specialized staff for specific tasks, such as IT system implementation or construction assembly."
+    },
+    "arrow3": {
+      "title": "One-time Recruitment",
+      "text": "One-time recruitment is a service in which our company comprehensively conducts: candidate selection, recruitment process, interviews (with the possibility of client participation). We keep you informed of our activities and present the candidates selected by us that meet your requirements. After the client's approval of the candidates, we move on to the legalization process, where the HoldHand team is responsible for obtaining a work permit in the Republic of Poland, and then a visa and organizing transport to Poland. We then issue you an invoice for the service performed at the previously agreed amount (+ list of costs incurred by us not included in the initial estimate). The final stage is the client's takeover and employment of the recruited candidate.",
+      "text2": "In this service, we offer the recruitment of both unqualified and qualified employees. We are ready for one-time orders and long-term cooperation with our clients."
+    },
+    "arrow4": {
+      "title": "Temporary Work",
+      "text": "Temporary work involves the cooperation of three parties: the temporary employment agency, the user employer, and the employee. The agency hires the employee, is responsible for their remuneration, and covers the costs associated with contributions. Then it delegates them to the user employer, where the employee performs their duties under their supervision for a maximum of 18 months within the next 36 months for one employer. A temporary employee can only perform seasonal, periodic, or casual work. This is an ideal solution for entrepreneurs needing short-term employment, for example, to service a hotel during the holiday season."
+    }
+  },
+  "dlaAgencji": {
+    "title1": "We cooperate with many employment agencies and local recruiters from many countries around the world, offering comprehensive recruitment and process and function outsourcing solutions.",
+    "title2": "We are open to new contacts and cooperation.",
+    "arrow1": {
+      "title": "One-time Employee Acquisition",
+      "text1": "We conduct a comprehensive recruitment process, including candidate selection, with the possibility of client participation at every stage. Our priority is to meet the client's requirements to provide suitable employees. We mainly cooperate with foreign agencies and recruiters, also handling the legalization of employment of selected candidates. After completing the process, we issue an invoice for the amount agreed upon during earlier negotiations. We offer the recruitment of both unqualified and qualified employees.",
+      "text2": "We are ready for one-time orders and long-term cooperation with our clients."
+    },
+    "arrow2": {
+      "title": "process and function outsourcing"
+    },
+    "arrow3": {
+      "title": "Does your company deal with recruitment/employment mediation?",
+      "text1": "We are waiting for contact! Present your offer to us using the contact form or send us an email, and we will certainly review it and get back to you.",
+      "text2": "We are always open to the services and cooperation proposals presented by you."
+    }
+  },
+  "download": {
+    "title": "Get a quote for your company related to:",
+    "1": "one-time recruitment",
+    "2": "process and function outsourcing",
+    "3": "body leasing",
+    "text1": "Fill in the form below and send it to our email address ",
+    "text2": ", and we will prepare a comprehensive quote, which we will send to your email address.",
+    "button": "Download the quote form"
+  },
+  "downloadAgency": {
+    "title": "Are you interested?",
+    "text1": "Fill in the form below and send it to our email address ",
+    "text2": ", and we will prepare a comprehensive quote, which we will send to your email address."
+  }
+}
