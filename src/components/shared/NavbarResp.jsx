@@ -7,6 +7,13 @@ import logo from '../../assets/logo/Logo-01.png'
 
 import useTranslationHook from '../../hooks/useTranslationHook'
 
+import translateIcon from '../../assets/svg/arrows/language.svg'
+
+import plFlag from '../../assets/flag/polska.webp'
+import ruFlag from '../../assets/flag/russian.jpg'
+import uaFlag from '../../assets/flag/ukraine.jpg'
+import enFlag from '../../assets/flag/uk.svg.png'
+
 function NavbarResp() {
   const { t, changeLanguage } = useTranslationHook()
   const [isActive, setIsActive] = useState(false)
@@ -97,6 +104,32 @@ function NavbarResp() {
               onClick={() => scrollToSection('contact')}
             >
               {t('navbar.kontakt')}
+            </li>
+          </ul>
+          <ul className='w-36 grid gap-4 mt-8 grid-cols-2'>
+            <li
+              className='cursor-pointer mx-auto'
+              onClick={() => changeLanguage('pl')}
+            >
+              <img src={plFlag} alt='polish flag' className='mx-auto' />
+            </li>
+            <li
+              className='cursor-pointer mx-auto'
+              onClick={() => changeLanguage('ru')}
+            >
+              <img src={ruFlag} alt='russian flag' className='mx-auto' />
+            </li>
+            <li
+              className='cursor-pointer mx-auto'
+              onClick={() => changeLanguage('ua')}
+            >
+              <img src={uaFlag} alt='ukrainian flag' className='mx-auto' />
+            </li>
+            <li
+              className='cursor-pointer mx-auto'
+              onClick={() => changeLanguage('en')}
+            >
+              <img src={enFlag} alt='uk flag' className='mx-auto' />
             </li>
           </ul>
           {/* <ul className='mt-4'>
