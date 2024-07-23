@@ -12,9 +12,12 @@ import Employers from './pages/Employers'
 import Agency from './pages/Agency'
 import Policy from './pages/Policy'
 
+import CookiePolicyPopup from './components/CookiePolicyPopup'
+
 function App() {
   return (
     <div className='bg-colorBg'>
+      <CookiePolicyPopup />
       <Router>
         <ScrollToTop />
         <div>
