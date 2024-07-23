@@ -1,0 +1,160 @@
+{
+  "navbar": {
+    "dlaPracownikow": "Dla pracowników",
+    "dlaPracodawcow": "Dla pracodawców",
+    "dlaAgencji": "Dla agencji pracy",
+    "faq": "FAQ",
+    "kontakt": "Kontakt",
+    "strGlowna": "Strona Główna"
+  },
+  "hero": {
+    "dlaPracownikow": "Dla pracowników",
+    "dlaPracownikowDesc": "Naszym celem jest ułatwienie Tobie dostępu do szerokiej gamy ofert pracy, odpowiadającym Twoim umiejętnościom oraz oczekiwaniom zawodowym.",
+    "dlaPracodawcow": "Dla pracodawców",
+    "dlaPracodawcowDesc": "Rozwijaj swój zespół z najlepszymi talentami na rynku. Odkryj nasze kompleksowe rozwiązania rekrutacyjne, dostosowane do unikalnych potrzeb Twojej firmy.",
+    "dlaAgencji": "Dla agencji pracy",
+    "dlaAgencjiDesc": "Zwiększ skuteczność rekrutacji dzięki naszej ofercie. Specjalizujemy się w dostarczaniu rozwiązań, które znajdą idealnych kandydatów dla Twoich klientów.",
+    "overMap": "Ułatwiamy rekrutację i budujemy zaufane relacje, łącząc profesjonalizm z pasją, stawiamy przede wszystkim na rozwój pracowników oraz naszych partnerów biznesowych.",
+    "trzyStrzalki": {
+      "tytul": "Rekrutujemy z całego świata",
+      "tekst": "Dzięki relacjom z zagranicznymi rekruterami pozyskujemy pracowników z różnych części świata – od specjalistów, aż po pracowników fizycznych. Jako nasze główne obszary rekrutacyjne zdecydowanie wskazujemy Nepal, Wietnam i Azerbejdżan. Współpracując w tych krajach z lokalnymi rekruterami, firmami i agencjami zatrudnienia, dopasowujemy się do potrzeb i wymagań naszych klientów.",
+      "jeden": "W 2022 r. w Polsce wskaźnik bezrobocia wynosił 1,8%, a liczba wolnych miejsc pracy osiągnęła 139,8 tys. Widzimy lukę między zasobami pracowniczymi a potrzebami rynku, co podkreśla konieczność otwarcia rynku pracy na zagranicznych pracowników.",
+      "dwa": "Nasze działania mają na celu zaspokojenie potrzeb rynku pracy w Polsce i oferowanie stabilnego zatrudnienia osobom z zagranicy. Służy to wsparciu rozwoju gospodarki krajowej i lokalnych polskich przedsiębiorstw.",
+      "trzy": "Dążymy do odpowiedzialnego dopasowywania pracowników, aby budować silną, zróżnicowaną gospodarkę. Naszym głównym celem jest zapełnienie luki na rynku pracy i budowanie mostów międzykulturowych."
+    }
+  },
+  "accordion": {
+    "items": [
+      {
+        "question": "Co to jest outsourcing procesów i funkcji?",
+        "answer": "Jest to forma współpracy, w której przejmujemy na siebie daną, wydzieloną część zadań, funkcji bądź procesów wykonywanych przez państwa firmę i realizujemy je za pomocą naszych pracowników. Nasi pracownicy pełnią określone w umowie funkcje i działania w państwa firmie przez ustalony w umowie okres czasu. Warto zaznaczyć, że w tej formie współpracy nie pozostajecie w żadnym stosunku prawnym z naszym pracownikiem, tzn. nie możecie zwolnić pracownika, tylko poprosić nas o wymianę."
+      },
+      {
+        "question": "Co oznacza outsourcing procesów i funkcji w praktyce?",
+        "answer": "W praktyce przejmujemy na siebie całą odpowiedzialność za kadry (selekcja kandydatów, rozmowy kwalifikacyjne, przeprowadzenie badań, szkoleń i zatrudnienie), płace (składki, fundusze, ubezpieczenia i wypłaty na rzecz pracownika), zarządzanie pracownikami oraz realizację zadań powierzonych przez państwa naszej firmie (wprowadzenie pracownika do miejsca pracy, przeszkolenie i aklimatyzacja). Państwo jedynie dostajecie pod koniec miesiąca fakturę do uregulowania."
+      },
+      {
+        "question": "Ile trwa dotarcie i rekrutacja pracownika do miejsca pracy?",
+        "answer": "W przypadku, kiedy w swoich kadrach nie posiadamy pracownika, który nadawałby się do pracy na określonym w umowie stanowisku, rozpoczynamy proces rekrutacji w celu pozyskania odpowiedniego kandydata. Proces ten może trwać, w zależności od kwalifikacji pracownika, od 2 tygodni (osoba niewykwalifikowana) do miesiąca w przypadku konkretnego specjalisty. Procedury takie jak uzyskanie informacji starosty rynku pracy, umożliwiającej zatrudnienie pracownika z zagranicy, oraz uzyskanie pozwolenia na pracę, które jest konieczne do uzyskania wizy pracowniczej, zazwyczaj zajmują około 2 miesięcy. Natomiast czas oczekiwania na wizę może być różny i zależy od wielu czynników, takich jak sytuacja geopolityczna, kwalifikacje pracownika czy liczba osób niebędących kandydatami naszej firmy, starających się o wizę w tym samym konsulacie.<br /><br /> Warto również wspomnieć, że polskie ambasady często stosują system losowania terminów, co może wprowadzać dodatkową niepewność co do daty, w której kandydat będzie mógł złożyć swoje dokumenty wizowe. Dlatego co jakiś czas aktualizujemy informacje o czasie potrzebnym do uzyskania terminów w poszczególnych ambasadach w danym kraju. Te informacje można znaleźć poniżej na naszej stronie (lub, jeśli są Państwo zapisani do naszego newslettera, otrzymają Państwo je drogą mailową jako pierwsi).<br /><br /> 1. Filipiny - do 2 miesięcy na uzyskanie wizy (akredytacja odbywa się w ciągu 2 tygodni) <br /><br />2. Wietnam - od 3 do 7 miesięcy <br /><br />3. Uzbekistan - okres oczekiwania 3-7 miesięcy. <br /><br />4. Kirgistan - okres oczekiwania do 2-2,5 miesiąca <br /><br />5. Turcja okres oczekiwania 3-5 miesięcy <br /><br />6. Kenia - okres oczekiwania 3-7 miesięcy <br /><br />7. Indie i Nepal okres oczekiwania 3-8 miesięcy <br /><br />8. Białoruś i Gruzja okres oczekiwania ok. 2-3 miesiące"
+      },
+      {
+        "question": "Jakie są koszty zatrudnienia i rekrutacji?",
+        "answer": "W zależności od zlecenia, ilości osób i ich kwalifikacji, koszt całości omawiany jest zawsze indywidualnie z klientem. Wstępne koszty podajemy zawsze po otrzymaniu wytycznych zamówienia ze strony klienta we wstępnym i niezobowiązującym formularzu zamówienia, przesłanym drogą mailową lub wypełnionym na stronie holdhand.work."
+      },
+      {
+        "question": "Czy jeśli zapewniam pracownikom zakwaterowanie, to jest ono odliczane od ostatecznej kwoty w rozliczeniach?",
+        "answer": "Tak, jest to uwzględnione w przypadku współpracy z nami. Wystawiacie Państwo nam fakturę co miesiąc, bądź podczas negocjacji uwzględniamy ten fakt w naszych kalkulacjach, co wpływa na ostateczną cenę oraz przekłada się bezpośrednio na wystawianą przez nas fakturę. Jesteśmy również otwarci na inne propozycje z Państwa strony."
+      },
+      {
+        "question": "W jaki sposób odbywają się rozliczenia?",
+        "answer": "Pod koniec miesiąca, na podstawie wyliczenia ilości godzin przepracowanych przez pracowników, wystawiamy Państwu fakturę za wykonane usługi przez naszych pracowników.<br /> <br />Ustanowiona w drodze negocjacji kwota godzinowa jest wyliczana na podstawie ilości godzin przepracowanych przez wszystkich pracowników wykonujących pracę w Państwa firmie, plus VAT."
+      },
+      {
+        "question": "Z jakiego kraju z naszej oferty można najszybciej ściągnąć pracownika do pracy?",
+        "answer": "Najszybszym sposobem na zatrudnienie pracownika jest Oświadczenie o powierzeniu wykonywania pracy cudzoziemcowi. Ogólnie rzecz biorąc, przysługuje ono obywatelom 5 państw: Armenii, Białorusi, Gruzji, Mołdawii i Ukrainy. (Chociaż po inwazji ze strony Rosji Ukraina otrzymała specjalny rodzaj procedury o nazwie „Powiadomienie o powierzeniu wykonywania pracy obywatelowi Ukrainy”, która jeszcze bardziej przyśpiesza możliwość zatrudnienia pracownika zza granicy). Oświadczenie jest wydawane zazwyczaj w ciągu 7 dni od złożenia.<br /><br /> Po uzyskaniu Oświadczenia pozostaje tylko wyrobienie wizy dla kandydata, co trwa w tych państwach około miesiąca. Plusem tej opcji jest brak potrzeby uzyskania informacji starosty o lokalnym rynku pracy oraz brak konieczności uzyskiwania zezwolenia na pracę.<br /><br />  Ta opcja ma jednak swoje ograniczenia:<br /> <br /> - Jeśli zależy Państwu na długiej współpracy, tzn. powyżej 2 lat, to osoba zatrudniona na podstawie oświadczenia może pracować tylko przez okres właśnie 2 lat. W takim przypadku przedłużamy pracownikowi pobyt.<br /> - Jeśli zależy Państwu na zatrudnieniu osoby do prac sezonowych, to nie jest to możliwe, ponieważ na takie prace potrzebne jest zezwolenie.<br /> - Na ten moment z wyżej wymienionych państw posiadamy w naszej ofercie: Białoruś, Gruzję i Mołdawię. Wraz z upływem czasu będziemy jednak uzupełniać naszą ofertę o kolejne państwa."
+      },
+      {
+        "question": "Czy jeśli okazałoby się, że pracownik źle wywiązuje się ze swoich zobowiązań, czy istnieje wyjście z tej sytuacji?",
+        "answer": "Zapewniamy możliwość zamiany pracownika w przypadkach, gdy nie wywiązuje się on ze zobowiązań wynikających z umowy lub wykazuje się rażącą niestarannością, niedbałością bądź innymi zaniedbaniami, które bezpośrednio wpływają na funkcjonowanie Państwa firmy. Dotyczy to tylko usługi outsourcingu pracowniczego i bodyleasingu."
+      },
+      {
+        "question": "Czy istnieje opcja bezpośredniego zatrudnienia pracownika?",
+        "answer": "W naszej ofercie, oprócz outsourcingu, pracy tymczasowej i body leasingu, mamy również opcję rekrutacji, którą przeprowadzamy na podstawie wytycznych otrzymanych od Państwa w formularzu zamówienia. Opiera się ona bezpośrednio na znalezieniu kandydata, przeprowadzeniu rozmów kwalifikacyjnych, wyrobieniu niezbędnych dokumentów i sprowadzeniu wyselekcjonowanego kandydata bezpośrednio do Państwa firmy. <br /><br /> Ustalenie kwoty takiej rekrutacji odbywa się indywidualnie, przyjmując, że: Wykwalifikowany kandydat - w drodze negocjacji, w zależności od specjalizacji danego kandydata i wykształcenia. Niewykwalifikowany kandydat - ok. 900 zł + koszty rekrutacji, wyrobienia dokumentów i sprowadzenia do Polski. <br /><br /> Rozliczenie za usługę następuje po sprowadzeniu pracownika do Państwa firmy (np. po okresie próbnym trwającym miesiąc). <br /><br /> Gdyby byli Państwo zainteresowani obecnością podczas rozmów kwalifikacyjnych czy innego procesu rekrutacyjnego, jesteśmy otwarci na taką możliwość."
+      }
+    ]
+  },
+  "footer": {
+    "contactForm": {
+      "sktNami": "Skontaktuj się z nami!",
+      "form1": "Imię i nazwisko / nazwa firmy",
+      "form2": "Email",
+      "form3": "Twoja wiadomość...",
+      "rodo": "Akceptuję zasady dotyczące przetwarzania moich danych osobowych zgodnie z polityką prywatności oraz RODO.",
+      "button": "Wyślij wiadomość",
+      "succesMessage": "Wiadomość wysłana pomyślnie! Dziękujemy za skorzystanie z formularza!"
+    },
+    "address": "Okopowa 8, 20-022 Lublin",
+    "copy": "Copyright © 2024 Holdhand sp. z o.o.",
+    "policy": "Polityka prywatności"
+  },
+  "dlaPracownikow": {
+    "tekst": "Umożliwiamy zgłaszanie zapotrzebowania na konkretne stanowiska pracy, wspierając realizację Twoich zawodowych aspiracji i dopasowując oferty do Twoich oczekiwań.",
+    "arrow1": {
+      "title": "Jak postępować?",
+      "point1": "Zdefiniuj Swoje Idealne Miejsce Pracy: Zastanów się nad preferowanym zawodem oraz specyfiką stanowiska, na którym chciałbyś pracować.",
+      "point2": "Prześlij Nam Swoje CV: Korzystając z formularza kontaktowego na naszej stronie, wyślij nam swoje aktualne CV wraz z opisem poszukiwanego stanowiska.",
+      "point3": "Oczekuj na Informacje Zwrotne: Gdy tylko zidentyfikujemy oferty pracy pasujące do Twoich kryteriów, skontaktujemy się z Tobą drogą mailową, przedstawiając Ci szczegółowe informacje.",
+      "point4": "Nasza usługa dostosowuje proces poszukiwania pracy do Twoich potrzeb, zwiększając szanse na znalezienie idealnego zatrudnienia. Z HoldHand każdy krok przybliża Cię do zawodowego sukcesu. Wyraź swoje aspiracje, a my pomożemy Ci je zrealizować."
+    },
+    "arrow2": {
+      "title": "Dlaczego HoldHand?",
+      "point1": "Różnorodność Ofert: Znajdziesz u nas oferty pracy z wielu branż, co zwiększa Twoje szanse na znalezienie idealnej pracy.",
+      "point2": "Prosty i Przejrzysty Proces Aplikacji: Nasza strona jest zaprojektowana tak, aby ułatwić Ci aplikowanie i szybkie znalezienie interesujących Cię ofert.",
+      "point3": "Wsparcie na Każdym Kroku: Jesteśmy tutaj, aby pomóc Ci w procesie rekrutacji. Jeśli masz pytania lub potrzebujesz pomocy, jesteśmy do Twojej dyspozycji."
+    },
+    "arrow3": {
+      "title": "Odkryj nowe możliwości",
+      "point1": "Z HoldHand łatwo znajdziesz ofertę pracy, która otworzy nowy rozdział w Twoim życiu zawodowym, bez względu na branżę. Nasze starannie wyselekcjonowane oferty zapewnią Ci najlepsze możliwości rozwoju. Zacznij z nami już dziś, odkryj nasze możliwości i nie pozwól, by Twoja kariera stała w miejscu."
+    },
+    "lastSect": {
+      "title": "Zdefiniuj swoje idealne miejsce pracy:",
+      "1": "Zastanów się nad preferowanym zawodem oraz specyfiką stanowiska, na którym chciałbyś pracować.",
+      "2": "Korzystając z formularza kontaktowego na naszej stronie, wyślij nam swoje aktualne CV wraz z opisem poszukiwanego stanowiska.",
+      "3": "Gdy tylko zidentyfikujemy oferty pracy pasujące do Twoich kryteriów, skontaktujemy się z Tobą drogą mailową, przedstawiając Ci szczegółowe informacje.",
+      "4": "Nasza usługa dostosowuje proces poszukiwania pracy do Twoich potrzeb, zwiększając szanse na znalezienie idealnego zatrudnienia. Z HoldHand każdy krok przybliża Cię do zawodowego sukcesu. Wyraź swoje aspiracje, a my pomożemy Ci je zrealizować",
+      "51": "Wypełnij poniższy formularz i prześlij na nasz adres e-mail",
+      "52": ", a my porządzimy kompleksową wycenę, którą prześlemy pod twój adres e-mail."
+    }
+  },
+  "dlaPracodawcow": {
+    "title": "Oferujemy kompleksowe rozwiązania zatrudnienia: outsourcing procesów i funkcji, bodyleasing, rekrutację na zlecenie i pracę tymczasową, dostosowane do indywidualnych potrzeb klientów.",
+    "arrow1": {
+      "title": "Outsourcing procesów i funkcji",
+      "text": "Outsourcing procesów i funkcji jest usługą w ramach której firma (Outsourcer) przejmuję na siebie część przedsiębiorstwa jej klienta (Insourcer) i za pomocą swojej kadry wykonuje powierzone jej zadania. W tym modelu klient nie nawiązuje żadnego stosunku z podwykonawcą usługodawcy, jedynie przekazuje listę zadań oraz w jaki sposób mają być wykonywane. Outsourcer, zarządza swoimi pracownikami, wypłaca im wynagrodzenie i odprowadza odpowiednie składki. Model ten jest rekomendowany firmom które mają zapotrzebowanie kadrowe na długotrwałe projekty jak np. obsługa linii montażowej."
+    },
+    "arrow2": {
+      "title": "Bodyleasing",
+      "text": "Bodyleasing to usługa, w ramach której HoldHand deleguje grupę swoich pracowników do klienta w celu wykonania określonego zadania jednorazowego. Podobnie jak w przypadku outsourcingu, klient nie nawiązuje żadnej bezpośredniej relacji z pracownikami podwykonawcy. HoldHand zarządza swoimi pracownikami, wypłaca im wynagrodzenia oraz odprowadza odpowiednie składki. Ten model jest szczególnie polecany firmom, które potrzebują specjalistycznej kadry do realizacji konkretnych zadań, takich jak wdrożenie systemu IT czy montaż konstrukcji."
+    },
+    "arrow3": {
+      "title": "Rekrutacja na zlecenie (jednorazowa)",
+      "text": "Rekrutacja na zlecenie jest to usługa, w które to nasza firma prowadzi w sposób kompleksowy: dobór kandydatów, proces rekrutacji, rozmowy kwalifikacyjne (z możliwością udziału Klienta). Na bieżąco informujemy o prowadzonych przez nas działaniach i przedstawiamy wyselekcjonowane przez nas osoby odpowiadające przedstawionym nam wymaganiom. Po akceptacji kandydatów ze strony klienta- my przechodzimy do procesu legalizacji, gdzie zespół HoldHand odpowiada za uzyskanie zezwolenia na pracę na terytorium RP, a następnie wizy i zorganizowanie transportu do Polski. Następnie wystawiamy Państwu fakturę za wykonaną usługę w kwocie ustalonej wcześniej (+ wykazem poniesionych przez nas kosztów nieuwzględnionych podczas wstępnej wyceny). Końcowym etapem jest przejęcie i zatrudnienie zrekrutowanego kandydata przez stronę Klienta.",
+      "text2": "W tej usłudze oferujemy rekrutację zarówno pracowników niewykwalifikowanych, jak i wykwalifikowanych. Jesteśmy gotowi na jednorazowe zamówienia oraz długoterminową współpracę z naszymi klientami."
+    },
+    "arrow4": {
+      "title": "Praca tymczasowa",
+      "text": "Praca tymczasowa polega na współpracy trzech stron: agencji pracy tymczasowej, pracodawcy użytkownika oraz pracownika. Agencja pracy zatrudnia pracownika, odpowiada za jego wynagrodzenie oraz pokrywa koszty związane ze składkami. Następnie deleguje go do pracodawcy użytkownika, gdzie pracownik wykonuje pod jego kierownictwem swoje obowiązki przez maksymalnie 18 miesięcy w ciągu kolejnych 36 miesięcy dla jednego pracodawcy. Pracownik tymczasowy może wykonywać jedynie prace o charakterze sezonowym, okresowym lub doraźnym. Jest to idealne rozwiązanie dla przedsiębiorców potrzebujących krótkotrwałego zatrudnienia, na przykład do obsługi hotelu w sezonie wakacyjnym."
+    }
+  },
+  "dlaAgencji": {
+    "title1": "Współpracujemy z wieloma agencjami pracy oraz lokalnymi rekruterami z wielu państw świata, oferując kompleksowe rozwiązania w zakresie rekrutacji i outsourcingu pracowniczego.",
+    "title2": "Jesteśmy otwarci na nowe kontakty i współpracę.",
+    "arrow1": {
+      "title": "Pozyskiwanie pracowników w formie jednorazowej",
+      "text1": "Prowadzimy kompleksowy proces rekrutacyjny, w tym dobór kandydatów, z możliwością udziału klienta na każdym etapie. Naszym priorytetem jest spełnienie wymagań klienta, aby dostarczyć odpowiednich pracowników. Współpracujemy głównie z zagranicznymi agencjami i rekruterami, zajmując się również legalizacją zatrudnienia wybranych kandydatów. Po zakończeniu procesu wystawiamy fakturę na kwotę uzgodnioną podczas wcześniejszych negocjacji. Oferujemy rekrutację zarówno pracowników niewykwalifikowanych, jak i wykwalifikowanych.",
+      "text2": "Jesteśmy gotowi na jednorazowe zamówienia oraz długoterminową współpracę z naszymi klientami."
+    },
+    "arrow2": {
+      "title": "Outsourcing procesów i funkcji"
+    },
+    "arrow3": {
+      "title": "Firma, którą reprezentujesz zajmuje się rektruacją/pośrednictwem zatrudnienia?",
+      "text1": "Czekamy na kontakt! Przedstawcie Państwo nam swoją ofertę, korzystając z formularza kontaktowego lub wysyłając nam na maila, a my z pewnością zapoznamy się i odezwiemy.",
+      "text2": "Jesteśmy zawsze otwarci na przedstawiane przez Państwa usługi i propozycje dot. współpracy."
+    }
+  },
+  "download": {
+    "title": "Uzyskaj wycenę dla twojej firmy związaną z:",
+    "1": "rekrutacją jednorazową",
+    "2": "outsourcingiem pracowniczym",
+    "3": "bodyleasingiem",
+    "text1": "Wypełnij poniższy formularz i prześlij na nasz adres e-mail ",
+    "text2": ", a my sporządzimy kompleksową wycenę, którą prześlemy pod twój adres e-mail.",
+    "button": "Pobierz formularz wyceny"
+  },
+  "downloadAgency": {
+    "title": "Jesteś zainteresowan-y/a?",
+    "text1": "Wypełnij poniższy formularz i prześlij na nasz adres e-mail ",
+    "text2": ", a my sporządzimy kompleksową wycenę, którą prześlemy pod twój adres e-mail."
+  }
+}

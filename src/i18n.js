@@ -4,6 +4,8 @@ import LanguageDetector from 'i18next-browser-languagedetector'
 
 import plTranslation from './locales/pl/translation.json'
 import ruTranslation from './locales/ru/translation.json'
+import enTranslation from './locales/en/translation.json'
+import uaTranslation from './locales/ua/translation.json'
 
 i18n
   .use(LanguageDetector) // Add this line
@@ -15,6 +17,12 @@ i18n
       },
       ru: {
         translation: ruTranslation,
+      },
+      en: {
+        translation: enTranslation,
+      },
+      ua: {
+        translation: uaTranslation,
       },
     },
     fallbackLng: 'pl',
